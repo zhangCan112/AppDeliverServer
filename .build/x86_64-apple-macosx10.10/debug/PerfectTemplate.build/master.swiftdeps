@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "30feff27d1049a5e124c74fd209696ae"
+build_time: [1513862225, 863321000]
+inputs:
+  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/Sources/main.swift": [1513861513, 0]

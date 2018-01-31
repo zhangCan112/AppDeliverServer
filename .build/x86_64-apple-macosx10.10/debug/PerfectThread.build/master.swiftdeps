@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "11d215540cdfe92c7e11bc1f381a3e45"
+build_time: [1513862184, 985238000]
+inputs:
+  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": [1513862168, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": [1513862168, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": [1513862168, 0]
