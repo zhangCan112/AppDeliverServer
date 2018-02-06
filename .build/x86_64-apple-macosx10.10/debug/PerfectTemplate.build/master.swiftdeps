@@ -1,5 +1,0 @@
-version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
-options: "b76875ce51442a070f6a7c75eba85a4d"
-build_time: [1517903158, 395783000]
-inputs:
-  "/Users/Tin/Documents/AppDeliverServer/Sources/main.swift": [1517553025, 0]
