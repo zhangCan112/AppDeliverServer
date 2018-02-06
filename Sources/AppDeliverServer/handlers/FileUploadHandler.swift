@@ -8,6 +8,7 @@
 import Foundation
 import PerfectHTTP
 import PerfectLib
+import PerfectZip
 
 extension Handlers {
     static func fileUpload(data: [String:Any]) throws -> RequestHandler {
@@ -22,11 +23,10 @@ extension Handlers {
                 
                 // iterate through the file uploads.
                 for upload in uploads {
-                    
                     // move file
                     let thisFile = File(upload.tmpFileName)
                     do {
-                        let _ = try thisFile.moveTo(path: "./webroot/uploads/\(upload.fileName)", overWrite: true)
+                        let _ = try thisFile.moveTo(path: "./webroot/uploads/\(upload.fileName)", overWrite: true)                        
                     } catch {
                         print(error)
                     }
