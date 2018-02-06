@@ -1,11 +1,11 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "851ccbe29d0cdcb2f795e36d55bd9d6a"
-build_time: [1513862195, 149342000]
+version: "Apple Swift version 4.0.2 (swiftlang-900.0.69.2 clang-900.0.38)"
+options: "996ebd0aec10f6805fdc59d2c5a4a3ef"
+build_time: [1517902064, 257530000]
 inputs:
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Algorithms.swift": [1513862169, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/ByteIO.swift": [1513862169, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Extensions.swift": [1513862169, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/JWT.swift": [1513862169, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Keys.swift": [1513862169, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/OpenSSLInternal.swift": [1513862169, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/PerfectCrypto.swift": [1513862169, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Algorithms.swift": [1517902043, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/ByteIO.swift": [1517902043, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Extensions.swift": [1517902043, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/JWT.swift": [1517902043, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/Keys.swift": [1517902043, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/OpenSSLInternal.swift": [1517902043, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Crypto.git--5196635702121641122/Sources/PerfectCrypto/PerfectCrypto.swift": [1517902043, 0]

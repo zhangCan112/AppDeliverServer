@@ -1,23 +1,23 @@
 {
   "": {
-    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/master.swiftdeps"
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/master.swiftdeps"
   },
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": {
-    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.d",
-    "object": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.swift.o",
-    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.swiftdeps"
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Promise.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Promise.swiftdeps"
   },
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": {
-    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.d",
-    "object": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.swift.o",
-    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.swiftdeps"
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/ThreadQueue.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/ThreadQueue.swiftdeps"
   },
-  "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": {
-    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.d",
-    "object": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.swift.o",
-    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/PerfectTemplate/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.swiftdeps"
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Thread.git-6541237758607105655/Sources/Threading.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.build/Threading.swiftdeps"
   }
 }

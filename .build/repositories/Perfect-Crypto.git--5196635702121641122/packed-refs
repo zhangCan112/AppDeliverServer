@@ -1,11 +1,13 @@
 # pack-refs with: peeled fully-peeled 
-6c957f84719ef7d43b6f8c0ba7f316830159d0f8 refs/heads/master
+034363974a38c2a9b9d6b9af35a515b0ad04c942 refs/heads/ISS-536-FILE-MD5
+edaf2f5689dcff32828f3583a0c6a0e41afe5820 refs/heads/master
 2cb2991e81659e4009fe39d1e4f24364f9429b5a refs/pull/1/head
 3e8d15a78c1c0cb3f22e6f959747d8a4d7b5eea3 refs/pull/2/head
 c0a2b57a430beffaffb2b05b4d059933a85a08e6 refs/pull/3/head
 659e023aab8eab576e7f7ca7ee9fd8228265a3bb refs/pull/3/merge
 f071d9a273a4a22aa987bc5337d1ea532cc37112 refs/pull/4/head
 152bef822178721881f5ed77e43e052730b41823 refs/pull/5/head
+034363974a38c2a9b9d6b9af35a515b0ad04c942 refs/pull/6/head
 32eadfde8a8df02f01f628c885fb7d63b1094e08 refs/tags/1.0.0
 f3e254c69ee92f764fc79733d98b02074466b666 refs/tags/1.0.1
 dffd5625f41ac50de509db7324649c77a65c40c2 refs/tags/1.0.2
@@ -22,3 +24,4 @@ b202021b9ddf4eef3318597526fb07d4a86b4cfa refs/tags/1.0.9
 80be4e67935406a9a36cd075b3ef7ec90374b7b5 refs/tags/3.0.0
 c14a840457bf2c951fbb94a37ed26645e7cc7365 refs/tags/3.0.1
 a440ab1dd8d3d87103312f1328bfb1648e7045e3 refs/tags/3.0.2
+a0565cd234faee0167f5f0540ad71516efc11a0b refs/tags/3.0.3
