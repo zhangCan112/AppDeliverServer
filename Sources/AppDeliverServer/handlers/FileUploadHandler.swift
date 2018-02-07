@@ -46,6 +46,7 @@ private class FileUploadHander {
                     do {
                         let _ = try thisFile.moveTo(path: "./webroot/uploads/\(upload.fileName)", overWrite: true)
                         let plistPath = IPAFileUtils.unZipFile(sourcePath: "./webroot/uploads/\(upload.fileName)", toPath: "./webroot/uploads/\(upload.fileName)2").plistPath;
+                        IPAFileUtils.parseInfoPlistFile(path: plistPath);
                     } catch {
                         print(error)
                     }

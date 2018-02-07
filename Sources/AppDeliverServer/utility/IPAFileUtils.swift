@@ -5,11 +5,14 @@
 //  Created by zhangcan on 2018/2/7.
 //
 
-import Foundation
 import PerfectXML
 import PerfectZip
 import PerfectLib
+import Foundation
 
+struct IpaInfo {
+    
+}
 
 class IPAFileUtils {
     //MARK: 解压ipa文件，并返回info.plist文件路径
@@ -34,6 +37,27 @@ class IPAFileUtils {
     
       return ("",NSError.init(domain: "info.plist is not found", code: -1, userInfo: nil))    
     }
+    
+    
+    //MARK: 解析info.plist文件获取需要的字段信息
+    static func parseInfoPlistFile(path: String) -> IpaInfo? {
+        let file = File(path)
+        var readString: [UInt8] = []
+        do {
+            try file.open(.read)
+             readString = try file.readSomeBytes(count: file.size)
+        } catch  {
+            print(error)
+        }
+        let data = Data.init(bytes: readString)
+        let str = try! PropertyListSerialization.propertyList(from: data, format: nil)
+        let ww = try! PropertyListSerialization.data(fromPropertyList: str, format: PropertyListSerialization.PropertyListFormat.xml, options: 0)
+        let rssXML = String.init(data: ww, encoding: .utf8) ?? "";
+        let xDoc = XDocument(fromSource: rssXML)
+        print(xDoc?.string(pretty: false))
+        return nil;
+    }
+    
 }
 
 
