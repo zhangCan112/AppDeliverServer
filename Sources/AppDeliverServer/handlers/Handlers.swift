@@ -15,8 +15,8 @@ class Handlers {
             // Respond with a simple message.
             response.setHeader(.contentType, value: "text/html")
             response.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world123!</body></html>")
-            // Ensure that response.completed() is called when your processing is done.
-            response.completed()
+            // Ensure that response.completed() is called when your processing is done.            
+            response.next()
         }
     }
 }
