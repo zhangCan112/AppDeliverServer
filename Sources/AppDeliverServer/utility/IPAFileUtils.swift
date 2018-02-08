@@ -10,8 +10,8 @@ import PerfectZip
 import PerfectLib
 
 struct IpaInfo {
-    let identifier: String
     let displayName: String
+    let identifier: String
     let iconName: String
     let version: String
 }
@@ -48,19 +48,41 @@ class IPAFileUtils {
         var rssXML: String = ""
         do {
              rssXML = try file.readString()
+            file.close()
         } catch  {
             print(error)
         }
         if let xDoc = XDocument(fromSource: rssXML) {
             let infoDic = xDoc.parseAsPlistFile()
-            let ipaInfo = IpaInfo(identifier: infoDic["CFBundleIdentifier"] as? String ?? "未获取到identifier",
-                                  displayName: infoDic["CFBundleDisplayName"] as? String ?? "未获取到displayName",
+            let ipaInfo = IpaInfo(displayName: infoDic["CFBundleDisplayName"] as? String ?? "未获取到displayName",
+                                  identifier: infoDic["CFBundleIdentifier"] as? String ?? "未获取到identifier",
                                   iconName: (((infoDic["CFBundleIcons"] as? Dictionary<String, Any>)?["CFBundlePrimaryIcon"]as? Dictionary<String, Any>)?["CFBundleIconFiles"] as? Array<String> ?? [""]).last ?? "",
                                   version: infoDic["CFBundleVersion"] as? String ?? "未获取到version")
             return ipaInfo
         }
-        
         return nil
+    }
+    
+    
+    
+    //MARK: 根据IpaInfo生成下载ipa的配置plist文件到指定路径
+    static func createInstallPropertyList(info: IpaInfo, toPath: String) -> Bool {
+        let temFile = File("./webroot/templates/ipadownload.swift")
+        do {
+            var temString = try temFile.readString()
+            temString = temString
+                .stringByReplacing(string: "{IPAURL}", withString: info.iconName)
+                .stringByReplacing(string: "{IPAID}", withString: info.identifier)
+                .stringByReplacing(string: "{IPAVER}", withString: info.version)
+                .stringByReplacing(string: "{IPATITLE}", withString: info.displayName)
+            let newFile = File(toPath)
+            try newFile.open(.readWrite)
+            try newFile.write(string: temString)
+            newFile.close()
+            return true
+        } catch {
+            return false;
+        }        
     }
     
 }

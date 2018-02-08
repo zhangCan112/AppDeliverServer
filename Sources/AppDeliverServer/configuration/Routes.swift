@@ -30,5 +30,10 @@ func routes() -> [[String: Any]] {
                    "handler": PerfectHTTPServer.HTTPHandler.staticFiles,
                    "documentRoot": "./webroot",
                    "allowResponseFilters": true])
+    //文件下载
+    routes.append(["method": "get",
+                   "uri":"/fileDownload",
+                   "handler":Handlers.fileDownload])
+    
     return routes;
 }

@@ -46,7 +46,13 @@ private class FileUploadHander {
                     do {
                         let _ = try thisFile.moveTo(path: "./webroot/uploads/\(upload.fileName)", overWrite: true)
                         let plistPath = IPAFileUtils.unZipFile(sourcePath: "./webroot/uploads/\(upload.fileName)", toPath: "./webroot/uploads/\(upload.fileName)2").plistPath;
-                        IPAFileUtils.parseInfoPlistFile(path: plistPath);
+                        if let info =  IPAFileUtils.parseInfoPlistFile(path: plistPath) {
+                            if IPAFileUtils.createInstallPropertyList(info: info, toPath: "./webroot/uploads/\(upload.fileName).plist") {
+                                print("ok")
+                            } else {
+                                print("no")
+                            }
+                        }
                     } catch {
                         print(error)
                     }
