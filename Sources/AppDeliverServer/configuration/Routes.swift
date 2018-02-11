@@ -32,8 +32,11 @@ func routes() -> [[String: Any]] {
                    "allowResponseFilters": true])
     //文件下载
     routes.append(["method": "get",
-                   "uri":"/fileDownload",
+                   "uri":"/fileDownload.plist",
                    "handler":Handlers.fileDownload])
+    routes.append(["method": "get",
+                   "uri":"/fileDownloadApp",
+                   "handler":Handlers.fileDownloadApp])
     
     return routes;
 }

@@ -40,7 +40,8 @@ var confData = [
             "address":"localhost",
             "port":8181,
 			"routes":[],
-			"filters":[]
+			"filters":[],
+            "tlsConfig":["certPath":"./server.crt", "keyPath":"./server.key"]
 		]
 	]
 ]
