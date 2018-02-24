@@ -24,7 +24,7 @@ extension Handlers {
     static func fileDownloadApp(data: [String:Any]) throws -> RequestHandler {
         return {
             request, response in
-            
+            print("请求下载App")
             response.setHeader(.contentType, value: "application/force-download")
             response.setHeader(.contentDisposition, value: "attachment; filename=\"ingage.ipa\"")
             let file = File.init("\(request.documentRoot)/uploads/ingage.ipa")

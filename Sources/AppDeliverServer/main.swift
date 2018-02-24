@@ -41,7 +41,7 @@ var confData = [
             "port":8181,
 			"routes":[],
 			"filters":[],
-            "tlsConfig":["certPath":"./server.crt", "keyPath":"./server.key"]
+//            "tlsConfig":["certPath":"./server.crt", "keyPath":"./server.key"]
 		]
 	]
 ]
