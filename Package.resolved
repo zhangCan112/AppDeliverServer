@@ -11,6 +11,15 @@
         }
       },
       {
+        "package": "MySQLStORM",
+        "repositoryURL": "https://github.com/SwiftORM/MySQL-StORM.git",
+        "state": {
+          "branch": null,
+          "revision": "22df24f781e06cb56d9be2b527a35e8e5aaaec0b",
+          "version": "3.2.1"
+        }
+      },
+      {
         "package": "PerfectCURL",
         "repositoryURL": "https://github.com/PerfectlySoft/Perfect-CURL.git",
         "state": {
@@ -83,6 +92,15 @@
         }
       },
       {
+        "package": "PerfectMySQL",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-MySQL.git",
+        "state": {
+          "branch": null,
+          "revision": "77ea5cb632c0add75bb6f3618f61b1d1fc57ee14",
+          "version": "3.0.2"
+        }
+      },
+      {
         "package": "PerfectNet",
         "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Net.git",
         "state": {
@@ -128,6 +146,15 @@
         }
       },
       {
+        "package": "StORM",
+        "repositoryURL": "https://github.com/SwiftORM/StORM.git",
+        "state": {
+          "branch": null,
+          "revision": "8b0578ef364013e3ce0ee9b83fee73d0d801cd37",
+          "version": "3.2.1"
+        }
+      },
+      {
         "package": "SwiftMoment",
         "repositoryURL": "https://github.com/iamjono/SwiftMoment.git",
         "state": {
@@ -146,6 +173,15 @@
         }
       },
       {
+        "package": "SwiftString",
+        "repositoryURL": "https://github.com/iamjono/SwiftString.git",
+        "state": {
+          "branch": null,
+          "revision": "a628671f5d84a31bd9d4220eb434da888f364b79",
+          "version": "2.0.4"
+        }
+      },
+      {
         "package": "cURL",
         "repositoryURL": "https://github.com/PerfectlySoft/Perfect-libcurl.git",
         "state": {
@@ -160,6 +196,15 @@
         "state": {
           "branch": null,
           "revision": "276b1e626240c797338beb95f8194c13695f5ba9",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "package": "mysqlclient",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-mysqlclient.git",
+        "state": {
+          "branch": null,
+          "revision": "51991fc81e40ddef36e8db1868c9b7f1f83d30dc",
           "version": "2.0.1"
         }
       }
