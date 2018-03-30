@@ -14,8 +14,8 @@ import PerfectCrypto
 
 
 class OSSRequest {
-    var accessKeyId = "LTAIP46PMViRaQCJ"
-    var accessKeySecret = "T4eDGknsW2PBbDpQ9tcqTEks42tahs"
+    var accessKeyId = aliyunAccessKeyInfo().accessKeyId
+    var accessKeySecret = aliyunAccessKeyInfo().accessKeySecret
     var bucketName = "appdeliver"
     let endPoint = "oss-cn-hangzhou.aliyuncs.com"
     var objectKey = ""
