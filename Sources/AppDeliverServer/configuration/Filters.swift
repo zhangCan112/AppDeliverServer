@@ -11,7 +11,6 @@ import PerfectHTTP
 
 
 
-
 func getViewAllRequestFilter(data: [String:Any]) throws -> HTTPRequestFilter {
     
     struct ViewAllRequest: HTTPRequestFilter {

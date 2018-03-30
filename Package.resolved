@@ -21,11 +21,11 @@
       },
       {
         "package": "PerfectCURL",
-        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-CURL.git",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Curl.git",
         "state": {
           "branch": null,
-          "revision": "3df2178ebd89330926ef523131101d2edebf8daf",
-          "version": "3.0.2"
+          "revision": "d81d96a74f43407a4b57a7c5335fd19515b50aeb",
+          "version": "3.0.6"
         }
       },
       {
