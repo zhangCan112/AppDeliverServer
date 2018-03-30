@@ -3,3 +3,4 @@
 /Packages
 /*.xcodeproj
 /webroot/uploads
+/Sources/AppDeliverServer/configuration/Config.swift 
