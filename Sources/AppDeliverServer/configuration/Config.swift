@@ -16,7 +16,6 @@ func config() -> [String: Any] {
 }
 
 
-
 func aliyunAccessKeyInfo() -> (accessKeyId: String, accessKeySecret: String) {
     let accessKeyId = "LTAIP46PMViRaQCJ"
     let accessKeySecret = "T4eDGknsW2PBbDpQ9tcqTEks42tahs"
