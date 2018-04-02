@@ -64,7 +64,12 @@ class OSSRequest {
     }
     
     ///获取GMT格式date
-    func GMTDate() -> String {                
+    func GMTDate() -> String {
+        let date  = Date();
+        let curCal =  Calendar.current
+        let compoments = curCal.dateComponents([.day,.month,.weekday], from: date)
+        
+        
         return Date().description;
     }
     
