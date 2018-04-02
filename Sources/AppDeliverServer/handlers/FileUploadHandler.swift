@@ -53,6 +53,8 @@ private class FileUploadHander {
                                 print("no")
                             }
                         }
+                        let request = PutObjectRequest.init(file: thisFile, objectName: "test.app")
+                        OSSTask.start(request: request)
                     } catch {
                         print(error)
                     }

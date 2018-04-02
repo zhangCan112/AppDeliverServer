@@ -9,7 +9,7 @@ import Foundation
 import PerfectCURL
 import PerfectCrypto
 import PerfectLib
-
+import PerfectHTTP
 
 
 
@@ -25,6 +25,12 @@ class OSSRequest {
     var host: String {
         return "\(bucketName).\(endPoint)"
     }
+    
+    var url: String {
+        return "http://\(self.host)"
+    }
+    
+    
     var data: [UInt8]?
     
     var contentMD5: String? {
@@ -58,7 +64,7 @@ class OSSRequest {
     }
     
     ///获取GMT格式date
-    func GMTDate() -> String {
+    func GMTDate() -> String {                
         return Date().description;
     }
     
@@ -76,15 +82,38 @@ class OSSRequest {
 class PutObjectRequest: OSSRequest {
     var file: File
     
-    init(file: File) {
-        self.file = file;
+    init(file: File ,objectName name: String) {
+        self.file = file
         super.init()
+        self.objectKey = name
         verb = "PUT"
     }
 }
 
-
 class OSSTask {
+    class func start(request: OSSRequest) {
+        CURLRequest(request.url,
+                    .httpMethod(HTTPMethod.from(string: request.verb)),
+                    .addHeader(.contentLength, String.init(((request.data ?? [UInt8]()).count))),
+                    .addHeader(.contentMD5, request.contentMD5 ?? ""),
+                    .addHeader(.contentType, request.contentType),
+                    .addHeader(.date, request.GMTDate()),
+                    .addHeader(.authorization, request.authorization() ?? ""),
+                    .addHeader(.host, request.host))
+            .perform {
+                        confirmation in
+                        do {
+                            let response = try confirmation()
+                            let json: [String:Any] = response.bodyJSON
+                            print("Success： \(json)")
+                        } catch let error as CURLResponse.Error {
+                            print("出错，响应代码为： \(error.response.responseCode)")
+                        } catch {
+                            print("致命错误： \(error)")
+                        }
+
+             }
+    }
     
 }
 
