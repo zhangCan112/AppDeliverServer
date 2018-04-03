@@ -32,6 +32,7 @@ class OSSRequest {
     
     
     var data: [UInt8]?
+    var date = Date()
     
     var contentMD5: String? {
         if let data = data,
@@ -50,27 +51,29 @@ class OSSRequest {
             commentmd5 = md5 + "\n"
         }
         //方法参考https://help.aliyun.com/document_detail/31951.html?spm=a2c4g.11186623.6.869.FWp9NK
-        let data = "\(verb)\n"
+        let data = "\(verb)" + "\n"
             + "\(commentmd5)"
-            + "\(contentType)\n"
-            + "\(GMTDate())\n"
+            + "\(contentType)" + "\n"
+            + "\(GMTDate())" + "\n"
             + "\(canonicalizedOSSHeaders())"
             + "\(canonicalizedResource())"
         if let signed = data.sign(.sha1, key: HMACKey(accessKeySecret))?.encode(.base64),
             let base64Str = String(validatingUTF8: signed) {
-            return "OSS \(accessKeyId):\(base64Str)"
+            let authorization = "OSS \(accessKeyId):\(base64Str)"
+            return authorization
         }
         return nil
     }
     
     ///获取GMT格式date
     func GMTDate() -> String {
-        let date  = Date();
-        let curCal =  Calendar.current
-        let compoments = curCal.dateComponents([.day,.month,.weekday], from: date)
-        
-        
-        return Date().description;
+        let date = self.date
+        let dateFormatter = DateFormatter()
+        //Wed, 05 Sep. 2012 23:00:00 GMT        
+        dateFormatter.dateFormat = "E, dd MMM yyyy HH:mm:ss zzz"
+        dateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
+        let dateString = dateFormatter.string(from: date)
+        return dateString
     }
     
     ///CanonicalizedOSSHeaders
@@ -90,6 +93,9 @@ class PutObjectRequest: OSSRequest {
     init(file: File ,objectName name: String) {
         self.file = file
         super.init()
+        do {
+            self.data = try file.readSomeBytes(count: file.size)
+        } catch  {}
         self.objectKey = name
         verb = "PUT"
     }
@@ -106,11 +112,11 @@ class OSSTask {
                     .addHeader(.authorization, request.authorization() ?? ""),
                     .addHeader(.host, request.host))
             .perform {
-                        confirmation in
+                (confirmation: CURLResponse.Confirmation) in
                         do {
                             let response = try confirmation()
                             let json: [String:Any] = response.bodyJSON
-                            print("Success： \(json)")
+                            print("Success：\(response.responseCode) \n \(response.bodyString) \n \(json)")
                         } catch let error as CURLResponse.Error {
                             print("出错，响应代码为： \(error.response.responseCode)")
                         } catch {
