@@ -113,29 +113,47 @@ class PutObjectRequest: OSSRequest {
         self.objectKey = name
         verb = "POST"
     }
+    
+    func postString() -> String {
+        let data = self.policy()
+        //方法参考https://help.aliyun.com/document_detail/31951.html?spm=a2c4g.11186623.6.869.FWp9NK
+        let signed = String(validatingUTF8:data.sign(.sha1, key: HMACKey(self.accessKeySecret))?.encode(.base64) ?? [UInt8]()) ?? ""
+        let dic: [String: String] = ["OSSAccessKeyId":self.accessKeyId,
+                   "policy": self.policy(),
+                   "signature": signed,
+                   "ResourceType": "Object", "key":self.objectKey,
+                   "x-oss-object-acl": "public-read",
+                   "success_action_status": "200",
+                   "file": String(describing: self.data ?? [UInt8]())]
+        let fileds =  dic.map({ filed -> String in
+            return "Content-Disposition: form-data; name=\"" + filed.key + "\"" + "\r\n\r\n" + filed.value + "\r\n--9431149156168"
+        })
+        let string = fileds.joined(separator: "\r\n")
+        print(string)
+        return "\r\n--9431149156168" +  string
+    }
+    
 }
 
 class OSSTask {
-    class func start(request: OSSRequest) {
+    class func start(request: PutObjectRequest) {
         print("GMT时间格式：\(request.GMTDate())\n")
         print("签名格式：\(request.signature())\n")
         print("验证格式：\(request.authorization() ?? "")\n")
-        let data = request.policy()
-        //方法参考https://help.aliyun.com/document_detail/31951.html?spm=a2c4g.11186623.6.869.FWp9NK
-        let signed = String(validatingUTF8:data.sign(.sha1, key: HMACKey(request.accessKeySecret))?.encode(.base64) ?? [UInt8]()) ?? ""
         
         let curlRequest =  CURLRequest(request.url,
                                          .addHeader(.contentLength, String.init(((request.data ?? [UInt8]()).count))),
                                          .addHeader(.contentType, request.contentType),
                                          .addHeader(.host, request.host),
-                                         .postField(CURLRequest.POSTField(name: "OSSAccessKeyId", value: request.accessKeyId)),
-                                         .postField(CURLRequest.POSTField(name: "policy", value: request.policy())),
-                                         .postField(CURLRequest.POSTField(name: "signature", value: signed)),
-                                         .postField(CURLRequest.POSTField(name: "ResourceType", value: "Object")),
-                                         .postField(CURLRequest.POSTField(name: "key", value: request.objectKey)),
-                                         .postField(CURLRequest.POSTField(name: "x-oss-object-acl", value: "public-read")),
-                                         .postField(CURLRequest.POSTField(name: "success_action_status", value: "200")),
-                                         .postField(CURLRequest.POSTField(name: "file", value: String(describing: request.data ?? [UInt8]()))),
+//                                         .postField(CURLRequest.POSTField(name: "OSSAccessKeyId", value: "request.accessKeyId\r\n--9431149156168")),
+//                                         .postField(CURLRequest.POSTField(name: "policy", value: request.policy() + "\r\n--9431149156168")),
+//                                         .postField(CURLRequest.POSTField(name: "signature", value: signed + "\r\n--9431149156168")),
+//                                         .postField(CURLRequest.POSTField(name: "ResourceType", value: "Object" + "\r\n--9431149156168")),
+//                                         .postField(CURLRequest.POSTField(name: "key", value: request.objectKey + "\r\n--9431149156168")),
+//                                         .postField(CURLRequest.POSTField(name: "x-oss-object-acl", value: "public-read" + "\r\n--9431149156168")),
+//                                         .postField(CURLRequest.POSTField(name: "success_action_status", value: "200" + "\r\n--9431149156168")),
+//                                         .postField(CURLRequest.POSTField(name: "file", value: String(describing: request.data ?? [UInt8]()) + "\r\n--9431149156168")),
+                                         .postString(request.postString()),
                                          .httpMethod(HTTPMethod.from(string: request.verb))
             )     
             curlRequest.perform {
