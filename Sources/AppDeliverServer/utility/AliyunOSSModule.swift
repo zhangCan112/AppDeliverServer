@@ -27,7 +27,7 @@ class OSSRequest {
     }
     
     var url: String {
-        return "http://\(self.host)"
+        return "http://\(self.host)/\(self.objectKey)"
     }
     
     
@@ -42,7 +42,7 @@ class OSSRequest {
         }
         return nil
     }
-    var contentType = "multipart/form-data; boundary=9431149156168"
+    var contentType = "image/jpg"
     
     ///计算获取授权信息
     func authorization() -> String? {
@@ -111,24 +111,29 @@ class PutObjectRequest: OSSRequest {
             self.data = try file.readSomeBytes(count: file.size)
         } catch  {}
         self.objectKey = name
-        verb = "POST"
+        verb = "PUT"
     }
     
     func postString() -> String {
         let data = self.policy()
         //方法参考https://help.aliyun.com/document_detail/31951.html?spm=a2c4g.11186623.6.869.FWp9NK
         let signed = String(validatingUTF8:data.sign(.sha1, key: HMACKey(self.accessKeySecret))?.encode(.base64) ?? [UInt8]()) ?? ""
-        let dic: [String: String] = ["OSSAccessKeyId":self.accessKeyId,
-                   "policy": self.policy(),
-                   "signature": signed,
-                   "ResourceType": "Object", "key":self.objectKey,
-                   "x-oss-object-acl": "public-read",
-                   "success_action_status": "200",
-                   "file": String(describing: self.data ?? [UInt8]())]
-        let fileds =  dic.map({ filed -> String in
-            return "Content-Disposition: form-data; name=\"" + filed.key + "\"" + "\r\n\r\n" + filed.value + "\r\n--9431149156168"
+        let array: [[String: String]] = [
+                   ["key":"${filename}"],
+                   ["OSSAccessKeyId":self.accessKeyId],
+                   ["policy": self.policy()],
+                   ["signature": signed],
+//                   "ResourceType": "Object", "key":self.objectKey,
+                   ["x-oss-object-acl": "public-read"],
+                   ["success_action_status": "200"],
+                   ["file": String(describing: self.data ?? [UInt8]())]]
+       let postFileds =  array.map({ (dic) -> String in
+            let fileds =  dic.map({ filed -> String in
+                return "Content-Disposition: form-data; name=\"" + filed.key + "\"" + "\r\n\r\n" + filed.value + "\r\n--9431149156168"
+            })
+        return fileds.first ?? ""
         })
-        let string = fileds.joined(separator: "\r\n")
+        let string = postFileds.joined(separator: "\r\n")
         print(string)
         return "\r\n--9431149156168" +  string
     }
@@ -142,20 +147,17 @@ class OSSTask {
         print("验证格式：\(request.authorization() ?? "")\n")
         
         let curlRequest =  CURLRequest(request.url,
-                                         .addHeader(.contentLength, String.init(((request.data ?? [UInt8]()).count))),
-                                         .addHeader(.contentType, request.contentType),
                                          .addHeader(.host, request.host),
-//                                         .postField(CURLRequest.POSTField(name: "OSSAccessKeyId", value: "request.accessKeyId\r\n--9431149156168")),
-//                                         .postField(CURLRequest.POSTField(name: "policy", value: request.policy() + "\r\n--9431149156168")),
-//                                         .postField(CURLRequest.POSTField(name: "signature", value: signed + "\r\n--9431149156168")),
-//                                         .postField(CURLRequest.POSTField(name: "ResourceType", value: "Object" + "\r\n--9431149156168")),
-//                                         .postField(CURLRequest.POSTField(name: "key", value: request.objectKey + "\r\n--9431149156168")),
-//                                         .postField(CURLRequest.POSTField(name: "x-oss-object-acl", value: "public-read" + "\r\n--9431149156168")),
-//                                         .postField(CURLRequest.POSTField(name: "success_action_status", value: "200" + "\r\n--9431149156168")),
-//                                         .postField(CURLRequest.POSTField(name: "file", value: String(describing: request.data ?? [UInt8]()) + "\r\n--9431149156168")),
-                                         .postString(request.postString()),
+                                         .addHeader(.custom(name: "Content-Encoding"), "utf-8"),
+                                         .addHeader(.custom(name: "Content-Disposition"), " attachment;filename=oss_download.jpg"),
+                                         .addHeader(.custom(name: "Content-MD5"), request.contentMD5 ?? ""),
+                                         .addHeader(.custom(name: "Date"), request.GMTDate()),
+                                         .addHeader(.custom(name: "Content-Type"), request.contentType),
+                                         .addHeader(.custom(name: "Content-Length"), "\(request.data?.count ?? 0)"),
+                                         .addHeader(.custom(name: "Authorization"), "\(request.authorization() ?? "")"),
+                                         .postData(request.data ?? [UInt8]()),
                                          .httpMethod(HTTPMethod.from(string: request.verb))
-            )     
+            )
             curlRequest.perform {
                 (confirmation: CURLResponse.Confirmation) in
                         do {
