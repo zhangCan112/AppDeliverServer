@@ -44,7 +44,8 @@ private class FileUploadHander {
                     // move file                    
                     let thisFile = File(upload.tmpFileName)
                     do {
-                        let _ = try thisFile.moveTo(path: "./webroot/uploads/\(upload.fileName)", overWrite: true)
+                        let fileName = upload.fileName;
+                        let thatFile = try thisFile.moveTo(path: "./webroot/uploads/\(upload.fileName)", overWrite: true)
                         let plistPath = IPAFileUtils.unZipFile(sourcePath: "./webroot/uploads/\(upload.fileName)", toPath: "./webroot/uploads/\(upload.fileName)2").plistPath;
                         if let info =  IPAFileUtils.parseInfoPlistFile(path: plistPath) {
                             if IPAFileUtils.createInstallPropertyList(info: info, toPath: "./webroot/uploads/\(upload.fileName).plist") {
@@ -53,7 +54,7 @@ private class FileUploadHander {
                                 print("no")
                             }
                         }
-                        let request = PutObjectRequest(file: File.init(plistPath), objectName: "test.app")
+                        let request = PutObjectRequest(file: thatFile, objectName: fileName)
                         OSSTask.start(request: request)
                     } catch {
                         print(error)
