@@ -20,6 +20,15 @@
         }
       },
       {
+        "package": "ObjectMapper",
+        "repositoryURL": "https://github.com/Hearst-DD/ObjectMapper.git",
+        "state": {
+          "branch": null,
+          "revision": "04c624cbbc4f05659605ae72db0f3e9eaf2eeeef",
+          "version": "3.1.0"
+        }
+      },
+      {
         "package": "PerfectCURL",
         "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Curl.git",
         "state": {

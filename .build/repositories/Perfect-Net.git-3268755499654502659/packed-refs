@@ -1,7 +1,6 @@
 # pack-refs with: peeled fully-peeled 
 ef35e528706b420a9cc76fe1a8a677858cc69685 refs/heads/betterdiscossl
 611703c75d8adb18b4aeb7d0eff984bdeae9bc4b refs/heads/master
-e4de476ceb2725f82860c92fdcd233298c1eacda refs/heads/netevent_eintr
 c8d0aeb2f133eee4f60e26d9c3920a69e80e4046 refs/pull/1/head
 160555833d7e978c4b4e4aa88f12ea7e167d76a3 refs/pull/10/head
 975e994cc100b8dd0e252066a6124bbc304e4370 refs/pull/11/head

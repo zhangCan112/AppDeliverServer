@@ -66,7 +66,7 @@ class IPAFileUtils {
     
     
     //MARK: 根据IpaInfo生成下载ipa的配置plist文件到指定路径
-    static func createInstallPropertyList(info: IpaInfo, toPath: String) -> Bool {
+    static func createInstallPropertyList(info: IpaInfo, toPath: String) -> File? {
         let temFile = File("./webroot/templates/ipadownload.swift")
         do {
             var temString = try temFile.readString()
@@ -79,9 +79,9 @@ class IPAFileUtils {
             try newFile.open(.readWrite)
             try newFile.write(string: temString)
             newFile.close()
-            return true
+            return newFile
         } catch {
-            return false;
+            return nil;
         }        
     }
     
