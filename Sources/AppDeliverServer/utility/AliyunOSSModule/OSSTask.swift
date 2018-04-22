@@ -67,7 +67,6 @@ class OSSTask {
                 } catch {
                     prom.fail(Error(code: 400, description: "response解析失败！"))
                 }
-                
             }
         }
         return promise
