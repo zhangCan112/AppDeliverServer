@@ -34,7 +34,7 @@ class PostIPARequestMaker {
     }
     
     func getObjectKey(ipaInfo: IpaInfo, uuid: String) -> String {
-        return "ipa/\(uuid)-\(ipaInfo.displayName)"
+        return "ipa/\(uuid)-\(ipaInfo.bundleName).ipa"
     }
     
     func getPolicy() -> String {

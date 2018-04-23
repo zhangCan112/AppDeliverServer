@@ -15,6 +15,8 @@ struct IpaInfo {
     let iconName: String
     let version: String
     var url: String = ""
+    let bundleName: String
+    
 }
 
 class IPAFileUtils {
@@ -59,7 +61,7 @@ class IPAFileUtils {
                                   identifier: infoDic["CFBundleIdentifier"] as? String ?? "未获取到identifier",
                                   iconName: (((infoDic["CFBundleIcons"] as? Dictionary<String, Any>)?["CFBundlePrimaryIcon"]as? Dictionary<String, Any>)?["CFBundleIconFiles"] as? Array<String> ?? [""]).last ?? "",
                                   version: infoDic["CFBundleVersion"] as? String ?? "未获取到version",
-                                  url: "")
+                                  url: "", bundleName: infoDic["CFBundleName"] as? String ?? "未获取到BundleName")
             return ipaInfo
         }
         return nil
