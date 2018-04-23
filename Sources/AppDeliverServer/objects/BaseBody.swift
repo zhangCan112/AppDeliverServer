@@ -8,10 +8,23 @@
 
 import ObjectMapper
 
-class BaseBody: Mappable {
+
+class EmptyData: Mappable {
+    required init?(map: Map) {
+        
+    }
+    init() {
+        
+    }
+    // Mappable
+    func mapping(map: Map) {
+    }
+}
+
+class BaseBody<T: Mappable>: Mappable {
     var scode = "0"
     var message = "success"
-    var data: Mappable?
+    var data: T?
     
     required init?(map: Map) {
         
@@ -20,24 +33,25 @@ class BaseBody: Mappable {
     init() {
         
     }
-    
-   static func successBody() -> BaseBody {
-        let body = BaseBody()
-        return body;
-    }
-    static func failedBody(scode: String, message: String) -> BaseBody {
-        let body = BaseBody()
-        body.scode = scode
-        body.message = message;
-        return body;
-    }
-    
     // Mappable
     func mapping(map: Map) {
         scode    <- map["scode"]
         message  <- map["message"]
         data     <- map["data"]
     }
+}
+
+func successBody<T: Mappable>(sucessData: T) -> BaseBody<T> {
+    let body = BaseBody<T>()
+    body.data = sucessData;
+    return body;
+}
+
+func failedBody(scode: String, message: String) -> BaseBody<EmptyData> {
+    let body = BaseBody<EmptyData>()
+    body.scode = scode
+    body.message = message;
+    return body;
 }
 
 

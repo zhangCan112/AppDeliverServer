@@ -14,6 +14,7 @@ struct IpaInfo {
     let identifier: String
     let iconName: String
     let version: String
+    var url: String = ""
 }
 
 class IPAFileUtils {
@@ -57,7 +58,8 @@ class IPAFileUtils {
             let ipaInfo = IpaInfo(displayName: infoDic["CFBundleDisplayName"] as? String ?? "未获取到displayName",
                                   identifier: infoDic["CFBundleIdentifier"] as? String ?? "未获取到identifier",
                                   iconName: (((infoDic["CFBundleIcons"] as? Dictionary<String, Any>)?["CFBundlePrimaryIcon"]as? Dictionary<String, Any>)?["CFBundleIconFiles"] as? Array<String> ?? [""]).last ?? "",
-                                  version: infoDic["CFBundleVersion"] as? String ?? "未获取到version")
+                                  version: infoDic["CFBundleVersion"] as? String ?? "未获取到version",
+                                  url: "")
             return ipaInfo
         }
         return nil
@@ -71,7 +73,7 @@ class IPAFileUtils {
         do {
             var temString = try temFile.readString()
             temString = temString
-                .stringByReplacing(string: "{IPAURL}", withString: info.iconName)
+                .stringByReplacing(string: "{IPAURL}", withString: info.url)
                 .stringByReplacing(string: "{IPAID}", withString: info.identifier)
                 .stringByReplacing(string: "{IPAVER}", withString: info.version)
                 .stringByReplacing(string: "{IPATITLE}", withString: info.displayName)
