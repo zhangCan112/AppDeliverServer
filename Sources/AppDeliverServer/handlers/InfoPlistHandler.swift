@@ -37,7 +37,8 @@ class InfoPlistHandler {
                     response.completed()
                     return
                 }
-                let ipaReqMaker = PostIPARequestMaker(ipaInfo: info, uuid: UUID().string)
+                let uuid = UUID().string
+                let ipaReqMaker = PostIPARequestMaker(ipaInfo: info, uuid: uuid)
                 info.url = ipaReqMaker.downloadUrl
                 guard let file = IPAFileUtils.createInstallPropertyList(info: info, toPath: "./webroot/uploads/\(upload.fileName)") else {
                     let body = failedBody(scode: "002", message: "上传文件解析失败！")
@@ -45,8 +46,9 @@ class InfoPlistHandler {
                     response.completed()
                     return
                 }
+                let objectName = file.path.components(separatedBy: "/").last ?? "\(upload.fileName)"
                 let request = PutObjectRequest(file:file,
-                                               objectName:file.path.components(separatedBy: "/").last ?? "\(upload.fileName)")
+                                               objectName:"plist/\(uuid)-\(objectName)")
                 
                 do {
                     let _ = try  OSSTask.start(request: request).then(closure: { (_) -> Void in

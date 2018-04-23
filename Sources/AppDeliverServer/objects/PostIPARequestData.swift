@@ -40,7 +40,7 @@ class PostIPARequestData: Mappable {
 extension PostIPARequestMaker {
     func transToMappable() -> PostIPARequestData {
         let data = PostIPARequestData()
-        data.host = self.host
+        data.host = "Https://" + self.host
         data.oSSAccessKeyId = self.accessKeyId
         data.key = self.objectKey
         data.success_action_status = String(self.success_action_status)
