@@ -54,6 +54,7 @@ confData["servers"]?[0]["filters"] = filters();
 confData["servers"]?[0]["routes"] = routes();
 
 do {
+    initConfig()
 	try HTTPServer.launch(configurationData: confData)
 } catch {
 	fatalError("\(error)") // fatal error launching one of the servers

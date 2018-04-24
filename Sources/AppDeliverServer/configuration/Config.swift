@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import MySQLStORM
+
 
 func config() -> [String: Any] {
     return [
@@ -20,4 +22,13 @@ func aliyunAccessKeyInfo() -> (accessKeyId: String, accessKeySecret: String) {
     let accessKeyId = "LTAIP46PMViRaQCJ"
     let accessKeySecret = "T4eDGknsW2PBbDpQ9tcqTEks42tahs"
     return (accessKeyId, accessKeySecret)
+}
+
+func  initConfig() {
+    //mysql
+    MySQLConnector.host        = "localhost"
+    MySQLConnector.username    = "username"
+    MySQLConnector.password    = "secret"
+    MySQLConnector.database    = "yourdatabase"
+    MySQLConnector.port        = 3306
 }
