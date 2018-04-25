@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		685199362090DFA300AC1648 /* AppUrlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685199352090DFA300AC1648 /* AppUrlModel.swift */; };
+		685199372090DFA300AC1648 /* AppUrlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685199352090DFA300AC1648 /* AppUrlModel.swift */; };
 		OBJ_1009 /* Duration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_131 /* Duration.swift */; };
 		OBJ_1010 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_132 /* Extensions.swift */; };
 		OBJ_1011 /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_133 /* Moment.swift */; };
@@ -364,7 +366,7 @@
 		OBJ_669 /* FileDownloadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* FileDownloadHandler.swift */; };
 		OBJ_670 /* FileUploadHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* FileUploadHandler.swift */; };
 		OBJ_671 /* Handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Handlers.swift */; };
-		OBJ_672 /* InfoPlistHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* InfoPlistHandler.swift */; };
+		OBJ_672 /* iOSHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* iOSHandler.swift */; };
 		OBJ_673 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* main.swift */; };
 		OBJ_674 /* AppiOSDiliver.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* AppiOSDiliver.swift */; };
 		OBJ_675 /* BaseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* BaseBody.swift */; };
@@ -1204,6 +1206,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		685199352090DFA300AC1648 /* AppUrlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUrlModel.swift; sourceTree = "<group>"; };
 		"AppDeliverServer::AppDeliverServer::Product" /* AppDeliverServer */ = {isa = PBXFileReference; lastKnownFileType = text; path = AppDeliverServer; sourceTree = BUILT_PRODUCTS_DIR; };
 		"COpenSSL::COpenSSL::Product" /* COpenSSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = COpenSSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"MySQLStORM::MySQLStORM::Product" /* MySQLStORM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MySQLStORM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1264,7 +1267,7 @@
 		OBJ_165 /* http_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = http_parser.c; sourceTree = "<group>"; };
 		OBJ_167 /* http_parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = http_parser.h; sourceTree = "<group>"; };
 		OBJ_168 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap"; sourceTree = "<group>"; };
-		OBJ_17 /* InfoPlistHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPlistHandler.swift; sourceTree = "<group>"; };
+		OBJ_17 /* iOSHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSHandler.swift; sourceTree = "<group>"; };
 		OBJ_171 /* HTTP11Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP11Request.swift; sourceTree = "<group>"; };
 		OBJ_172 /* HTTP11Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP11Response.swift; sourceTree = "<group>"; };
 		OBJ_174 /* HPACK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HPACK.swift; sourceTree = "<group>"; };
@@ -2044,7 +2047,7 @@
 				OBJ_14 /* FileDownloadHandler.swift */,
 				OBJ_15 /* FileUploadHandler.swift */,
 				OBJ_16 /* Handlers.swift */,
-				OBJ_17 /* InfoPlistHandler.swift */,
+				OBJ_17 /* iOSHandler.swift */,
 			);
 			path = handlers;
 			sourceTree = "<group>";
@@ -2254,6 +2257,7 @@
 			children = (
 				OBJ_22 /* BaseBody.swift */,
 				OBJ_23 /* PostIPARequestData.swift */,
+				685199352090DFA300AC1648 /* AppUrlModel.swift */,
 			);
 			path = objects;
 			sourceTree = "<group>";
@@ -4107,6 +4111,7 @@
 			buildActionMask = 0;
 			files = (
 				OBJ_534 /* Package.swift in Sources */,
+				685199362090DFA300AC1648 /* AppUrlModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4288,7 +4293,7 @@
 				OBJ_669 /* FileDownloadHandler.swift in Sources */,
 				OBJ_670 /* FileUploadHandler.swift in Sources */,
 				OBJ_671 /* Handlers.swift in Sources */,
-				OBJ_672 /* InfoPlistHandler.swift in Sources */,
+				OBJ_672 /* iOSHandler.swift in Sources */,
 				OBJ_673 /* main.swift in Sources */,
 				OBJ_674 /* AppiOSDiliver.swift in Sources */,
 				OBJ_675 /* BaseBody.swift in Sources */,
@@ -4297,6 +4302,7 @@
 				OBJ_678 /* PostIPARequestMaker.swift in Sources */,
 				OBJ_679 /* PutObjectRequest.swift in Sources */,
 				OBJ_680 /* FileUtils.swift in Sources */,
+				685199372090DFA300AC1648 /* AppUrlModel.swift in Sources */,
 				OBJ_681 /* IPAFileUtils.swift in Sources */,
 				OBJ_682 /* MySqlStORM+Extension.swift in Sources */,
 				OBJ_683 /* PageHandlers.swift in Sources */,

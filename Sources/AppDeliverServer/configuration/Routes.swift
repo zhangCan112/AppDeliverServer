@@ -15,10 +15,16 @@ func routes() -> [[String: Any]] {
     routes.append(["method": "get",
                    "uri":"/",
                    "handler":Handlers.main])
+    
+    //App下载链接地址
+    routes.append(["method": "get",
+                   "uri":"/ios/appurl",
+                   "handler":Handlers.iOS.appUrl.get])
+    
     //infoplist文件
     routes.append(["method": "post",
                    "uri":"/iOS/infoPlist",
-                   "handler":Handlers.infoPlistHandler.post])
+                   "handler":Handlers.iOS.infoPlist.post])
     
     //文件上传
     routes.append(["method": "get",

@@ -29,6 +29,6 @@ func  initConfig() {
     MySQLConnector.host        = "0.0.0.0"
     MySQLConnector.username    = "root"
     MySQLConnector.password    = "Zcdxl@1988"
-    MySQLConnector.database    = "schma"
+    MySQLConnector.database    = "schema"
     MySQLConnector.port        = 3306
 }

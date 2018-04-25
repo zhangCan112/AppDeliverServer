@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ContentFilters</key>
+	<dict/>
+	<key>auto_connect</key>
+	<true/>
+	<key>data</key>
+	<dict>
+		<key>connection</key>
+		<dict>
+			<key>database</key>
+			<string>schema</string>
+			<key>host</key>
+			<string>localhost</string>
+			<key>kcid</key>
+			<string>-3827291724826513029</string>
+			<key>name</key>
+			<string>localhost</string>
+			<key>rdbms_type</key>
+			<string>mysql</string>
+			<key>sslCACertFileLocation</key>
+			<string></string>
+			<key>sslCACertFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslCertificateFileLocation</key>
+			<string></string>
+			<key>sslCertificateFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>sslKeyFileLocation</key>
+			<string></string>
+			<key>sslKeyFileLocationEnabled</key>
+			<integer>0</integer>
+			<key>type</key>
+			<string>SPSocketConnection</string>
+			<key>useSSL</key>
+			<integer>0</integer>
+			<key>user</key>
+			<string>root</string>
+		</dict>
+		<key>session</key>
+		<dict>
+			<key>connectionEncoding</key>
+			<string>utf8</string>
+			<key>contentFilter</key>
+			<dict/>
+			<key>contentPageNumber</key>
+			<integer>1</integer>
+			<key>contentSelection</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGOjtYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK8QDwcIFRYXGBkfICEoLDA0OFUkbnVs
+			bNMJCgsMEBRXTlMua2V5c1pOUy5vYmplY3RzViRjbGFzc6MNDg+A
+			AoADgASjERITgAWABoAKgA5UdHlwZVRyb3dzVGtleXNfECZTZWxl
+			Y3Rpb25EZXRhaWxUeXBlUHJpbWFyeUtleWVkRGV0YWlsc9MJCgsa
+			HB6hG4AHoR2ACIAJUTMJ0iIjJCVaJGNsYXNzbmFtZVgkY2xhc3Nl
+			c18QE05TTXV0YWJsZURpY3Rpb25hcnmjJCYnXE5TRGljdGlvbmFy
+			eVhOU09iamVjdNIKCykroSqAC4AN0gstLi9ZTlMuc3RyaW5ngAxS
+			aWTSIiMxMl8QD05TTXV0YWJsZVN0cmluZ6MxMydYTlNTdHJpbmfS
+			IiM1Nl5OU011dGFibGVBcnJheaM1NydXTlNBcnJhedIiIyY5oiYn
+			XxAPTlNLZXllZEFyY2hpdmVy0Tw9VGRhdGGAAQAIABEAGgAjAC0A
+			MgA3AEkATwBWAF4AaQBwAHQAdgB4AHoAfgCAAIIAhACGAIsAkACV
+			AL4AxQDHAMkAywDNAM8A0QDSANcA4gDrAQEBBQESARsBIAEiASQB
+			JgErATUBNwE6AT8BUQFVAV4BYwFyAXYBfgGDAYYBmAGbAaAAAAAA
+			AAACAQAAAAAAAAA+AAAAAAAAAAAAAAAAAAABog==
+			</data>
+			<key>contentSortColIsAsc</key>
+			<true/>
+			<key>contentViewport</key>
+			<string>{{94.5, 0}, {922, 475}}</string>
+			<key>isToolbarVisible</key>
+			<true/>
+			<key>table</key>
+			<string>iOSDiliver</string>
+			<key>view</key>
+			<string>SP_VIEW_CONTENT</string>
+			<key>windowVerticalDividerPosition</key>
+			<real>200</real>
+		</dict>
+	</dict>
+	<key>encrypted</key>
+	<false/>
+	<key>format</key>
+	<string>connection</string>
+	<key>queryFavorites</key>
+	<array/>
+	<key>queryHistory</key>
+	<array>
+		<string>SELECT * FROM `users`</string>
+		<string>UPDATE users SET `email`='zc@163.com', PASSWORD='fdd123', `birthday`='1988-1-12'  WHERE `id`=4</string>
+		<string>UPDATE users SET `name`='zc' WHERE `id`=4</string>
+		<string>INSERT INTO users VALUES(4,'zs','123456','zs@sina.com','1980-12-04')
+UPDATE users SET `name`='zc' WHERE `id`=4</string>
+		<string>INSERT INTO users VALUES(4,'zs','123456','zs@sina.com','1980-12-04')</string>
+		<string>INSERT INTO users (4,'zs','123456','zs@sina.com','1980-12-04')</string>
+		<string>INSERT INTO users ('zs','123456','zs@sina.com','1980-12-04')</string>
+		<string>INSERT ('zs','123456','zs@sina.com','1980-12-04') INTO users</string>
+		<string>create database day06;
+use day06;
+create table users(
+	id int primary key auto_increment,
+	name varchar(40),
+	password varchar(40),
+	email varchar(60),
+	birthday date
+)character set utf8 collate utf8_general_ci;
+insert into users(name,password,email,birthday) values('zs','123456','zs@sina.com','1980-12-04');
+insert into users(name,password,email,birthday) values('lisi','123456','lisi@sina.com','1981-12-04');
+insert into users(name,password,email,birthday) values('wangwu','123456','wangwu@sina.com','1979-12-04')</string>
+		<string>insert into users(name,password,email,birthday) values('wangwu','123456','wangwu@sina.com','1979-12-04')</string>
+		<string>CREATE DATABASE mydb1</string>
+		<string>FLUSH PRIVILEGES</string>
+		<string>GRANT ALL ON sonar.* TO 'sonar'@'localhost' IDENTIFIED BY 'sonar'</string>
+		<string>GRANT ALL ON sonar.* TO 'sonar'@'%' IDENTIFIED BY 'sonar'</string>
+		<string>CREATE USER 'sonar' IDENTIFIED BY 'sonar'</string>
+		<string>CREATE DATABASE sonar CHARACTER SET utf8 COLLATE utf8_general_ci</string>
+		<string>SELECT * FROM `t_book`</string>
+		<string>SELECT @bookName</string>
+		<string>CALL pro_getBookNameById(10,@bookName)</string>
+		<string>CREATE PROCEDURE pro_getBookNameById(IN bookId INT , OUT bN VARCHAR(20))
+BEGIN
+     SELECT `bookName` INTO bN FROM `t_book` WHERE `id` = bookId;   
+ END</string>
+	</array>
+	<key>rdbms_type</key>
+	<string>mysql</string>
+	<key>rdbms_version</key>
+	<string>5.7.21</string>
+	<key>version</key>
+	<integer>1</integer>
+</dict>
+</plist>

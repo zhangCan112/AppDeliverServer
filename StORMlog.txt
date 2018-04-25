@@ -105,3 +105,7 @@
 [ERROR] [b2f4e6b2-7ca5-46e2-af24-df9850ffaaa0] [2018-04-25 18:40:54 GMT+08:00] Error msg: error("Incorrect datetime value: \'NULL\' for column \'createTime\' at row 1")
 [ERROR] [0d6b9ed8-5ba5-4f85-ae8e-a503e251dc88] [2018-04-25 18:40:54 GMT+08:00] Error msg: error("error(\"Incorrect datetime value: \\\'NULL\\\' for column \\\'createTime\\\' at row 1\")")
 [ERROR] [97e04bad-cb76-4c2f-a7b2-cf0e2fe27d84] [2018-04-25 18:40:54 GMT+08:00] Error msg: error("error(\"error(\\\"Incorrect datetime value: \\\\\\\'NULL\\\\\\\' for column \\\\\\\'createTime\\\\\\\' at row 1\\\")\")")
+[ERROR] [8bfc2c9b-ce77-4fa0-b8c0-9f2655909650] [2018-04-25 23:24:55 GMT+08:00] Error msg: error("Unknown column \'createTime\' in \'field list\'")
+[ERROR] [3d6336c4-93ac-4ef8-9eff-3cf7c39ffa7b] [2018-04-25 23:24:55 GMT+08:00] Error msg: error("Unknown column \'createTime\' in \'field list\'")
+[ERROR] [256dc11b-2e78-4ad2-92d7-8a4b260d362f] [2018-04-25 23:24:55 GMT+08:00] Error msg: error("error(\"Unknown column \\\'createTime\\\' in \\\'field list\\\'\")")
+[ERROR] [24c17e8d-fb6d-476a-8e5a-fc1e0c04de43] [2018-04-25 23:24:55 GMT+08:00] Error msg: error("error(\"error(\\\"Unknown column \\\\\\\'createTime\\\\\\\' in \\\\\\\'field list\\\\\\\'\\\")\")")
