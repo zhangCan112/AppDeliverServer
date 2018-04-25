@@ -1,10 +1,10 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "42c8e35b9475588e53d4ff7e3a77412f"
-build_time: [1524643079, 365294000]
+options: "2e696e001e8f0f8b54163c38514c5b9d"
+build_time: [1524665094, 593138000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": [1524643061, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": [1524643061, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": [1524643061, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": [1524643061, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": [1524643061, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": [1524643061, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": [1524665058, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": [1524665058, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": [1524665058, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": [1524665058, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": [1524665058, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": [1524665058, 0]

@@ -1,17 +1,17 @@
 {
   "": {
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/master.swiftdeps"
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/master.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/PerfectZip/Utilities.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Utilities.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Utilities.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Utilities~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Utilities.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/PerfectZip/Utilities.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Utilities.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Utilities.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Utilities.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/PerfectZip/Zip.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Zip.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Zip.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Zip~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Zip.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/PerfectZip/Zip.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Zip.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Zip.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Zip~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.build/Zip.swiftdeps"
   }
 }

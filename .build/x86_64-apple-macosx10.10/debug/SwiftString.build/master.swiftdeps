@@ -1,7 +1,7 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "d8d653cf83250a022adeeaedd0b9ee8d"
-build_time: [1524643079, 288564000]
+options: "5f9a1be1c1ffd244571833d43eb22f62"
+build_time: [1524665094, 371372000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftString.git-1364241159374428423/Sources/StringExtensions.swift": [1524643057, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftString.git-1364241159374428423/Sources/StringHTML.swift": [1524643057, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftString.git-1364241159374428423/Sources/StringURL.swift": [1524643057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftString.git-1364241159374428423/Sources/StringExtensions.swift": [1524665052, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftString.git-1364241159374428423/Sources/StringHTML.swift": [1524665052, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftString.git-1364241159374428423/Sources/StringURL.swift": [1524665052, 0]

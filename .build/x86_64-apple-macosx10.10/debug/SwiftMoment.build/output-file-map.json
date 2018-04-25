@@ -1,41 +1,41 @@
 {
   "": {
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/master.swiftdeps"
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/master.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Duration.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Extensions.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Moment.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/MomentFromNow.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/Operators.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.build/TimeUnit.swiftdeps"
   }
 }

@@ -8,17 +8,18 @@ provides-member:
 provides-dynamic-lookup:
 depends-top-level:
 - !private "..<"
+- !private "=="
 - "AppiOSDiliver"
 - "AssignmentPrecedence"
 - "CastingPrecedence"
 - "Date"
-- "FloatLiteralType"
 - "Int"
-- "IntegerLiteralType"
 - "MySQLStORM"
 - "StORMRow"
 - "String"
 - "StringLiteralType"
+- "TernaryPrecedence"
+- !private "getDate"
 depends-member:
 - ["16AppDeliverServer13AppiOSDiliverC", "AppiOSDiliver"]
 - ["16AppDeliverServer13AppiOSDiliverC", "Date"]
@@ -29,8 +30,10 @@ depends-member:
 - ["16AppDeliverServer13AppiOSDiliverC", "buildID"]
 - ["16AppDeliverServer13AppiOSDiliverC", "comment"]
 - ["16AppDeliverServer13AppiOSDiliverC", "createDate"]
+- !private ["16AppDeliverServer13AppiOSDiliverC", "createTime"]
 - ["16AppDeliverServer13AppiOSDiliverC", "deinit"]
 - ["16AppDeliverServer13AppiOSDiliverC", "downloadPlistFileUrl"]
+- !private ["16AppDeliverServer13AppiOSDiliverC", "getDate"]
 - ["16AppDeliverServer13AppiOSDiliverC", "id"]
 - ["16AppDeliverServer13AppiOSDiliverC", "init"]
 - ["16AppDeliverServer13AppiOSDiliverC", "name"]
@@ -47,6 +50,7 @@ depends-member:
 - !private ["s23BidirectionalCollectionP", "count"]
 - ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["s7CVarArgP", "append"]
 - !private ["s7CVarArgP", "count"]
 - ["s7CVarArgP", "init"]
@@ -56,43 +60,62 @@ depends-member:
 - ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "subscript"]
 - ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "sqlDateTime"]
 - !private ["s28CustomDebugStringConvertibleP", "append"]
 - !private ["s28CustomDebugStringConvertibleP", "count"]
 - ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "sqlDateTime"]
 - !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
 - ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "sqlDateTime"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
 - !private ["s17CustomReflectableP", "append"]
 - !private ["s17CustomReflectableP", "count"]
 - ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "sqlDateTime"]
 - !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
 - !private ["s23CustomStringConvertibleP", "append"]
 - !private ["s23CustomStringConvertibleP", "count"]
 - ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "sqlDateTime"]
 - !private ["s23CustomStringConvertibleP", "subscript"]
-- ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "sqlDateTime"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
 - !private ["s9DecodableP", "append"]
 - !private ["s9DecodableP", "count"]
 - ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "sqlDateTime"]
 - !private ["s9DecodableP", "subscript"]
 - !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
 - !private ["s9EncodableP", "append"]
 - !private ["s9EncodableP", "count"]
 - ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "sqlDateTime"]
 - !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
 - ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "sqlDateTime"]
 - !private ["s25ExpressibleByArrayLiteralP", "append"]
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
 - !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - ["s26ExpressibleByStringLiteralP", "init"]
 - ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
 - ["s8HashableP", "init"]
+- !private ["s8HashableP", "sqlDateTime"]
+- !private ["10PerfectLib15JSONConvertibleP", "_getBuiltinLogicValue"]
 - !private ["10PerfectLib15JSONConvertibleP", "append"]
 - !private ["10PerfectLib15JSONConvertibleP", "count"]
 - ["10PerfectLib15JSONConvertibleP", "init"]
 - !private ["10PerfectLib15JSONConvertibleP", "subscript"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
 - ["s25LosslessStringConvertibleP", "init"]
 - ["s10MirrorPathP", "init"]
 - !private ["s17MutableCollectionP", "append"]
@@ -108,7 +131,9 @@ depends-member:
 - ["10MySQLStORMAAC", "buildID"]
 - ["10MySQLStORMAAC", "comment"]
 - ["10MySQLStORMAAC", "createDate"]
+- ["10MySQLStORMAAC", "createTime"]
 - ["10MySQLStORMAAC", "downloadPlistFileUrl"]
+- !private ["10MySQLStORMAAC", "getDate"]
 - ["10MySQLStORMAAC", "id"]
 - ["10MySQLStORMAAC", "init"]
 - ["10MySQLStORMAAC", "name"]
@@ -136,7 +161,7 @@ depends-member:
 - !private ["s26RangeReplaceableCollectionP", "count"]
 - ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "subscript"]
-- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "sqlDateTime"]
 - !private ["s8SequenceP", "append"]
 - !private ["s8SequenceP", "count"]
 - ["s8SequenceP", "init"]
@@ -150,7 +175,9 @@ depends-member:
 - ["5StORMAAC", "buildID"]
 - ["5StORMAAC", "comment"]
 - ["5StORMAAC", "createDate"]
+- ["5StORMAAC", "createTime"]
 - ["5StORMAAC", "downloadPlistFileUrl"]
+- !private ["5StORMAAC", "getDate"]
 - ["5StORMAAC", "id"]
 - ["5StORMAAC", "init"]
 - ["5StORMAAC", "name"]
@@ -160,12 +187,12 @@ depends-member:
 - ["5StORMAAC", "to"]
 - ["5StORMAAC", "version"]
 - !private ["5StORM0A11ORMProtocolP", "AppiOSDiliver"]
-- ["5StORM0A11ORMProtocolP", "Date"]
 - !private ["5StORM0A11ORMProtocolP", "archiveType"]
 - !private ["5StORM0A11ORMProtocolP", "buildID"]
 - !private ["5StORM0A11ORMProtocolP", "comment"]
-- !private ["5StORM0A11ORMProtocolP", "createDate"]
+- !private ["5StORM0A11ORMProtocolP", "createTime"]
 - !private ["5StORM0A11ORMProtocolP", "downloadPlistFileUrl"]
+- !private ["5StORM0A11ORMProtocolP", "getDate"]
 - !private ["5StORM0A11ORMProtocolP", "id"]
 - !private ["5StORM0A11ORMProtocolP", "init"]
 - !private ["5StORM0A11ORMProtocolP", "name"]
@@ -191,6 +218,7 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "init"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
@@ -210,9 +238,11 @@ depends-member:
 - !private ["s17_MutableIndexableP", "count"]
 - !private ["s17_MutableIndexableP", "init"]
 - !private ["s17_MutableIndexableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
 - !private ["s21_ObjectiveCBridgeableP", "append"]
 - !private ["s21_ObjectiveCBridgeableP", "count"]
 - ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "sqlDateTime"]
 - !private ["s21_ObjectiveCBridgeableP", "subscript"]
 - !private ["s22_RandomAccessIndexableP", "append"]
 - !private ["s22_RandomAccessIndexableP", "count"]
@@ -227,6 +257,7 @@ depends-nominal:
 - "16AppDeliverServer13AppiOSDiliverC"
 - !private "Sa"
 - "s23BidirectionalCollectionP"
+- !private "Sb"
 - "s7CVarArgP"
 - "s10CollectionP"
 - "s10ComparableP"
@@ -234,12 +265,13 @@ depends-nominal:
 - "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
-- "10Foundation4DateV"
+- !private "10Foundation4DateV"
 - "s9DecodableP"
 - !private "s10DictionaryV"
 - "s9EncodableP"
 - "s9EquatableP"
 - !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s26ExpressibleByStringLiteralP"
@@ -262,7 +294,7 @@ depends-nominal:
 - "So8NSStringC"
 - !private "s22RandomAccessCollectionP"
 - "s26RangeReplaceableCollectionP"
-- "10Foundation20ReferenceConvertibleP"
+- !private "10Foundation20ReferenceConvertibleP"
 - "s8SequenceP"
 - "5StORMAAC"
 - "5StORM0A11ORMProtocolP"
@@ -275,6 +307,7 @@ depends-nominal:
 - !private "s14_ArrayProtocolP"
 - "s23_BidirectionalIndexableP"
 - !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
 - "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
 - "s39_ExpressibleByBuiltinUTF16StringLiteralP"
@@ -291,111 +324,111 @@ depends-nominal:
 - "s16_SwiftStringViewP"
 depends-dynamic-lookup:
 depends-external:
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectXML.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectCURL.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/StORM.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectMustache.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftString.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectLogger.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectNet.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.swiftmodule"
-- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/typelib.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zlib.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/zlib.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/czlib.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/my_alloc.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/my_command.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql_time.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/psi/psi_base.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zconf.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/zconf.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/ioapi.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zutil.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectXML.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectCURL.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/StORM.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectMustache.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftString.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectLogger.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectNet.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/typelib.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zlib.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/zlib.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/czlib.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/my_alloc.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/my_command.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql_time.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql/psi/psi_base.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zconf.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/zconf.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/ioapi.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zutil.h"
 - "/usr/local/include/mysql/mysql.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql_com.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/client_plugin.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql_version.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/plugin_auth_common.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/zip.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/unzip.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/http_parser.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../inftrees.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/binary_log_types.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../cms.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/my_list.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
-- "/usr/local/Cellar/mysql/5.7.22/include/mysql/mysql/psi/psi_memory.h"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-libxml2.git--1407945982793290600/module.modulemap"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-libcurl.git--6269865819486613555/module.modulemap"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/module.modulemap"
-- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap"
-interface-hash: "bb868c3ac31cfae40692d2218693be77"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql_com.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql/client_plugin.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql_version.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql/plugin_auth_common.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/zip.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/unzip.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/http_parser.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../inftrees.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/binary_log_types.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../cms.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/my_list.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql/psi/psi_memory.h"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-libxml2.git--1407945982793290600/module.modulemap"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-libcurl.git--6269865819486613555/module.modulemap"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/module.modulemap"
+- "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap"
+interface-hash: "10ef13c1e1c82391db5f1af80f1727f0"

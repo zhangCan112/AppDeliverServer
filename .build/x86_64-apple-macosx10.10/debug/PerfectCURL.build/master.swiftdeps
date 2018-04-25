@@ -1,9 +1,9 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "3acef7c9ed7ec5c35d2e230e3fb99944"
-build_time: [1524643118, 699225000]
+options: "0195a6f521871fe4a8cf4835dea51897"
+build_time: [1524665162, 902517000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequest.swift": [1524643053, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequestOptions.swift": [1524643053, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponse.swift": [1524643053, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponseInfos.swift": [1524643053, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": [1524643053, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequest.swift": [1524665042, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLRequestOptions.swift": [1524665042, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponse.swift": [1524665042, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/CURLResponseInfos.swift": [1524665042, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-CURL.git-8858624468322681619/Sources/cURL.swift": [1524665042, 0]

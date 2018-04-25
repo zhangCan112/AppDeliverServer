@@ -1,77 +1,77 @@
 {
   "": {
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/master.swiftdeps"
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/master.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Convenience.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Convenience.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Convenience.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Convenience~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Convenience.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Convenience.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Convenience.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Convenience.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Convenience~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Convenience.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/DataConverters.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/DataConverters.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/DataConverters.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/DataConverters~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/DataConverters.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/DataConverters.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/DataConverters.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/DataConverters.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/DataConverters~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/DataConverters.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Delete.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Delete.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Delete.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Delete~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Delete.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Delete.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Delete.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Delete.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Delete~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Delete.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Insert.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Insert.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Insert.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Insert~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Insert.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Insert.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Insert.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Insert.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Insert~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Insert.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLConnect.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLConnect.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLConnect.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLConnect~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLConnect.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLConnect.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLConnect.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLConnect.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLConnect~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLConnect.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLDataType.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLDataType.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLDataType.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLDataType~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLDataType.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLDataType.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLDataType.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLDataType.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLDataType~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLDataType.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLStORM.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLStORM.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLStORM.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLStORM~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLStORM.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/MySQLStORM.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLStORM.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLStORM.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLStORM~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/MySQLStORM.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/SQL.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/SQL.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/SQL.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/SQL~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/SQL.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/SQL.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/SQL.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/SQL.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/SQL~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/SQL.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Select.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Select.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Select.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Select~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Select.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Select.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Select.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Select.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Select~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Select.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Update.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Update.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Update.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Update~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Update.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Update.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Update.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Update.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Update~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Update.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Upsert.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Upsert.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Upsert.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Upsert~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Upsert.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/Upsert.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Upsert.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Upsert.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Upsert~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/Upsert.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/parseRows.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/parseRows.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/parseRows.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/parseRows~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/parseRows.swiftdeps"
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/MySQL-StORM.git-3054102240623951208/Sources/parseRows.swift": {
+    "dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/parseRows.d",
+    "object": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/parseRows.swift.o",
+    "swiftmodule": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/parseRows~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.build/parseRows.swiftdeps"
   }
 }

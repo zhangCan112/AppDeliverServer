@@ -1,5 +1,5 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "90d745c485a05416c4bae08438074178"
-build_time: [1524643090, 118067000]
+options: "e02378aeee22efc366f3891bddd0ea65"
+build_time: [1524665113, 796774000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL.swift": [1524643059, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-MySQL.git-4976130768219902098/Sources/PerfectMySQL.swift": [1524665055, 0]

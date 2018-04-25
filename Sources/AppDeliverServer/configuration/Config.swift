@@ -12,7 +12,7 @@ import MySQLStORM
 func config() -> [String: Any] {
     return [
         "name":"localhost",
-        "address":"192.168.199.226",
+        "address":"192.168.1.100",
         "port":8181,
     ]
 }
@@ -27,8 +27,8 @@ func aliyunAccessKeyInfo() -> (accessKeyId: String, accessKeySecret: String) {
 func  initConfig() {
     //mysql
     MySQLConnector.host        = "0.0.0.0"
-    MySQLConnector.username    = ""
-    MySQLConnector.password    = ""
-    MySQLConnector.database    = ""
+    MySQLConnector.username    = "root"
+    MySQLConnector.password    = "Zcdxl@1988"
+    MySQLConnector.database    = "schma"
     MySQLConnector.port        = 3306
 }

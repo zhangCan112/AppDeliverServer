@@ -1,14 +1,14 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "e7f5c84806d6d7f343fbe2efe3258a11"
-build_time: [1524643114, 558263000]
+options: "9f13b66657eaf734adee461799fad07d"
+build_time: [1524665155, 739657000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPFilter.swift": [1524643060, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPHeaders.swift": [1524643060, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPMethod.swift": [1524643060, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPRequest.swift": [1524643060, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPResponse.swift": [1524643060, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/MimeReader.swift": [1524643060, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/MimeType.swift": [1524643060, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/Routing.swift": [1524643060, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/StaticFileHandler.swift": [1524643060, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/TypedRoutes.swift": [1524643060, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPFilter.swift": [1524665057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPHeaders.swift": [1524665057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPMethod.swift": [1524665057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPRequest.swift": [1524665057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/HTTPResponse.swift": [1524665057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/MimeReader.swift": [1524665057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/MimeType.swift": [1524665057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/Routing.swift": [1524665057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/StaticFileHandler.swift": [1524665057, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-HTTP.git--6392294032632002019/Sources/PerfectHTTP/TypedRoutes.swift": [1524665057, 0]

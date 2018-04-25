@@ -1,5 +1,5 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "72cd4d8e6b5506efd542020d22d2332e"
-build_time: [1524643135, 405662000]
+options: "07f64c9078bc82c68457941f1259e497"
+build_time: [1524665193, 270287000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-RequestLogger.git-3102495399181047151/Sources/PerfectRequestLogger.swift": [1524643061, 0]
+  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-RequestLogger.git-3102495399181047151/Sources/PerfectRequestLogger.swift": [1524665058, 0]
