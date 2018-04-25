@@ -1,6 +1,2 @@
 .DS_Store
-/.build
-/Packages
-/*.xcodeproj
-/webroot/uploads
-/Sources/AppDeliverServer/configuration/Config.swift
+webroot/uploads/*

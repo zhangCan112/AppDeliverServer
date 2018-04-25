@@ -1,0 +1,221 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "URLTransform"
+provides-nominal:
+- "12ObjectMapper12URLTransformC"
+provides-member:
+- ["12ObjectMapper12URLTransformC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "CharacterSet"
+- "String"
+- "TransformType"
+- "URL"
+- "URLTransform"
+depends-member:
+- !private ["s23BidirectionalCollectionP", "addingPercentEncoding"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addingPercentEncoding"]
+- !private ["10Foundation12CharacterSetV", "urlQueryAllowed"]
+- !private ["s10CollectionP", "addingPercentEncoding"]
+- !private ["s10ComparableP", "addingPercentEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "addingPercentEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "urlQueryAllowed"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingPercentEncoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "addingPercentEncoding"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "urlQueryAllowed"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "absoluteString"]
+- !private ["s9DecodableP", "addingPercentEncoding"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "urlQueryAllowed"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "absoluteString"]
+- !private ["s9EncodableP", "addingPercentEncoding"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "urlQueryAllowed"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "absoluteString"]
+- !private ["s9EquatableP", "addingPercentEncoding"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "urlQueryAllowed"]
+- !private ["s25ExpressibleByArrayLiteralP", "urlQueryAllowed"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s26ExpressibleByStringLiteralP", "addingPercentEncoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "absoluteString"]
+- !private ["s8HashableP", "addingPercentEncoding"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "urlQueryAllowed"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "addingPercentEncoding"]
+- !private ["s10MirrorPathP", "addingPercentEncoding"]
+- !private ["So8NSCodingP", "addingPercentEncoding"]
+- !private ["So9NSCopyingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderReadingP", "addingPercentEncoding"]
+- !private ["So21NSItemProviderWritingP", "addingPercentEncoding"]
+- !private ["So16NSMutableCopyingP", "addingPercentEncoding"]
+- !private ["So8NSObjectC", "addingPercentEncoding"]
+- !private ["So16NSObjectProtocolP", "addingPercentEncoding"]
+- !private ["So19NSPasteboardReadingP", "addingPercentEncoding"]
+- !private ["So19NSPasteboardWritingP", "addingPercentEncoding"]
+- !private ["So14NSSecureCodingP", "addingPercentEncoding"]
+- !private ["So8NSStringC", "addingPercentEncoding"]
+- !private ["s26RangeReplaceableCollectionP", "addingPercentEncoding"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "urlQueryAllowed"]
+- !private ["s8SequenceP", "addingPercentEncoding"]
+- !private ["s10SetAlgebraP", "urlQueryAllowed"]
+- !private ["SS", "addingPercentEncoding"]
+- !private ["s14StringProtocolP", "addingPercentEncoding"]
+- !private ["s16TextOutputStreamP", "addingPercentEncoding"]
+- !private ["s20TextOutputStreamableP", "addingPercentEncoding"]
+- ["12ObjectMapper13TransformTypeP", "JSON"]
+- ["12ObjectMapper13TransformTypeP", "Object"]
+- !private ["12ObjectMapper13TransformTypeP", "URL"]
+- !private ["12ObjectMapper13TransformTypeP", "allowedCharacterSet"]
+- !private ["12ObjectMapper13TransformTypeP", "shouldEncodeURLString"]
+- ["12ObjectMapper13TransformTypeP", "transformFromJSON"]
+- ["12ObjectMapper13TransformTypeP", "transformToJSON"]
+- ["12ObjectMapper13TransformTypeP", ""]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["10Foundation3URLV", "init"]
+- ["12ObjectMapper12URLTransformC", "Bool"]
+- ["12ObjectMapper12URLTransformC", "CharacterSet"]
+- ["12ObjectMapper12URLTransformC", "JSON"]
+- ["12ObjectMapper12URLTransformC", "Object"]
+- ["12ObjectMapper12URLTransformC", "String"]
+- ["12ObjectMapper12URLTransformC", "URL"]
+- !private ["12ObjectMapper12URLTransformC", "allowedCharacterSet"]
+- ["12ObjectMapper12URLTransformC", "deinit"]
+- ["12ObjectMapper12URLTransformC", "init"]
+- !private ["12ObjectMapper12URLTransformC", "shouldEncodeURLString"]
+- ["12ObjectMapper12URLTransformC", "transformFromJSON"]
+- ["12ObjectMapper12URLTransformC", "transformToJSON"]
+- !private ["s23_BidirectionalIndexableP", "addingPercentEncoding"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "addingPercentEncoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "addingPercentEncoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "addingPercentEncoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "addingPercentEncoding"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "addingPercentEncoding"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "addingPercentEncoding"]
+- !private ["s10_IndexableP", "addingPercentEncoding"]
+- !private ["s14_IndexableBaseP", "addingPercentEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "addingPercentEncoding"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "urlQueryAllowed"]
+- !private ["s26_RangeReplaceableIndexableP", "addingPercentEncoding"]
+- !private ["s16_SwiftStringViewP", "addingPercentEncoding"]
+depends-nominal:
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "10Foundation12CharacterSetV"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "12ObjectMapper13TransformTypeP"
+- !private "10Foundation3URLV"
+- "12ObjectMapper12URLTransformC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4004cd1f94c6af0d383dcc4634bd0a79"

@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "4d436cb9f9a37a826faf493a49d017a1"
+build_time: [1524636512, 989155000]
+inputs:
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/PerfectZip/Utilities.swift": [1524636477, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/PerfectZip/Zip.swift": [1524636477, 0]

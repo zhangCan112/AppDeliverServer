@@ -1,0 +1,113 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/master.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/configuration/Config.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Config.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/configuration/Config.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Config~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Config.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/configuration/Filters.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Filters.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/configuration/Filters.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Filters~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Filters.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/configuration/Routes.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Routes.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/configuration/Routes.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Routes~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Routes.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/FileDownloadHandler.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/FileDownloadHandler.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/handlers/FileDownloadHandler.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/FileDownloadHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/FileDownloadHandler.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/FileUploadHandler.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/FileUploadHandler.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/handlers/FileUploadHandler.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/FileUploadHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/FileUploadHandler.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/Handlers.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Handlers.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/handlers/Handlers.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Handlers~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/Handlers.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/InfoPlistHandler.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/InfoPlistHandler.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/handlers/InfoPlistHandler.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/InfoPlistHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/InfoPlistHandler.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/main.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/main.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/main.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/main.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/model/AppiOSDiliver.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/model/AppiOSDiliver.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/objects/AppiOSDiliver.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/objects/AppiOSDiliver.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/objects/BaseBody.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/BaseBody.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/objects/BaseBody.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/BaseBody~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/BaseBody.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/objects/PostIPARequestData.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PostIPARequestData.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/objects/PostIPARequestData.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PostIPARequestData~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PostIPARequestData.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/AliyunOSSModule/OSSTask.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/OSSTask.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/utility/AliyunOSSModule/OSSTask.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/OSSTask~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/OSSTask.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/AliyunOSSModule/PostIPARequestMaker.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PostIPARequestMaker.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/utility/AliyunOSSModule/PostIPARequestMaker.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PostIPARequestMaker~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PostIPARequestMaker.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/AliyunOSSModule/PutObjectRequest.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PutObjectRequest.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/utility/AliyunOSSModule/PutObjectRequest.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PutObjectRequest~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PutObjectRequest.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/FileUtils.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/FileUtils.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/utility/FileUtils.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/FileUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/FileUtils.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/IPAFileUtils.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/IPAFileUtils.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/utility/IPAFileUtils.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/IPAFileUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/IPAFileUtils.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/PageHandlers.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PageHandlers.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/utility/PageHandlers.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PageHandlers~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PageHandlers.swiftdeps"
+  }
+}

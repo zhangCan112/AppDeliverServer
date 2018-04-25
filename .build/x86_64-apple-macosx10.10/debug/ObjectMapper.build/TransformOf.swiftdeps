@@ -1,0 +1,64 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TransformOf"
+provides-nominal:
+- "12ObjectMapper11TransformOfC"
+provides-member:
+- ["12ObjectMapper11TransformOfC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "TransformOf"
+- "TransformType"
+depends-member:
+- ["12ObjectMapper11TransformOfC", "JSON"]
+- ["12ObjectMapper11TransformOfC", "JSONType"]
+- ["12ObjectMapper11TransformOfC", "Object"]
+- ["12ObjectMapper11TransformOfC", "ObjectType"]
+- ["12ObjectMapper11TransformOfC", "deinit"]
+- !private ["12ObjectMapper11TransformOfC", "fromJSON"]
+- ["12ObjectMapper11TransformOfC", "init"]
+- !private ["12ObjectMapper11TransformOfC", "toJSON"]
+- ["12ObjectMapper11TransformOfC", "transformFromJSON"]
+- ["12ObjectMapper11TransformOfC", "transformToJSON"]
+- ["12ObjectMapper13TransformTypeP", "JSON"]
+- ["12ObjectMapper13TransformTypeP", "Object"]
+- !private ["12ObjectMapper13TransformTypeP", "fromJSON"]
+- !private ["12ObjectMapper13TransformTypeP", "toJSON"]
+- ["12ObjectMapper13TransformTypeP", "transformFromJSON"]
+- ["12ObjectMapper13TransformTypeP", "transformToJSON"]
+- ["12ObjectMapper13TransformTypeP", ""]
+depends-nominal:
+- "12ObjectMapper11TransformOfC"
+- "12ObjectMapper13TransformTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "e5bfab579bf410295f353ba89161a58c"

@@ -1,0 +1,64 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EnumTransform"
+provides-nominal:
+- "12ObjectMapper13EnumTransformC"
+provides-member:
+- ["12ObjectMapper13EnumTransformC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CastingPrecedence"
+- "EnumTransform"
+- "RawRepresentable"
+- "TransformType"
+depends-member:
+- ["12ObjectMapper13EnumTransformC", "JSON"]
+- ["12ObjectMapper13EnumTransformC", "Object"]
+- ["12ObjectMapper13EnumTransformC", "T"]
+- ["12ObjectMapper13EnumTransformC", "deinit"]
+- ["12ObjectMapper13EnumTransformC", "init"]
+- ["12ObjectMapper13EnumTransformC", "transformFromJSON"]
+- ["12ObjectMapper13EnumTransformC", "transformToJSON"]
+- ["s16RawRepresentableP", "RawValue"]
+- !private ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "rawValue"]
+- ["12ObjectMapper13TransformTypeP", "JSON"]
+- ["12ObjectMapper13TransformTypeP", "Object"]
+- !private ["12ObjectMapper13TransformTypeP", "T"]
+- ["12ObjectMapper13TransformTypeP", "transformFromJSON"]
+- ["12ObjectMapper13TransformTypeP", "transformToJSON"]
+- ["12ObjectMapper13TransformTypeP", ""]
+depends-nominal:
+- "12ObjectMapper13EnumTransformC"
+- "s16RawRepresentableP"
+- "12ObjectMapper13TransformTypeP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "4b86ed93096023bf0e000a8a9ba8c67f"

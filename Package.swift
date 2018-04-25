@@ -15,7 +15,6 @@ let package = Package(
          .package(url:"https://github.com/PerfectlySoft/Perfect-MySQL.git", from: "3.0.0"),
          .package(url: "https://github.com/SwiftORM/MySQL-StORM.git",from: "3.0.0"),
          .package(url: "https://github.com/Hearst-DD/ObjectMapper.git", from: "3.0.0"),
-         .package(url: "https://github.com/rymcol/SwiftSQL.git", from: "3.0.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -29,8 +28,7 @@ let package = Package(
                            "PerfectXML",
                            "PerfectMySQL",
                            "MySQLStORM",
-                           "ObjectMapper",
-                           "SwiftSQL",
+                           "ObjectMapper",                           
             ]),
     ]
 )

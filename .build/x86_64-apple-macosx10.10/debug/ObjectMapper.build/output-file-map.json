@@ -1,0 +1,143 @@
+{
+  "": {
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/master.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/CustomDateFormatTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/CustomDateFormatTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/CustomDateFormatTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/CustomDateFormatTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/CustomDateFormatTransform.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/DataTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DataTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DataTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DataTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DataTransform.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/DateFormatterTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DateFormatterTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DateFormatterTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DateFormatterTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DateFormatterTransform.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/DateTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DateTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DateTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DateTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DateTransform.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/DictionaryTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DictionaryTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DictionaryTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DictionaryTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/DictionaryTransform.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/EnumOperators.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/EnumOperators.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/EnumOperators.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/EnumOperators~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/EnumOperators.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/EnumTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/EnumTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/EnumTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/EnumTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/EnumTransform.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/FromJSON.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/FromJSON.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/FromJSON.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/FromJSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/FromJSON.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/HexColorTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/HexColorTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/HexColorTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/HexColorTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/HexColorTransform.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/ISO8601DateTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ISO8601DateTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ISO8601DateTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ISO8601DateTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ISO8601DateTransform.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/ImmutableMappable.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ImmutableMappable.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ImmutableMappable.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ImmutableMappable~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ImmutableMappable.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/IntegerOperators.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/IntegerOperators.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/IntegerOperators.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/IntegerOperators~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/IntegerOperators.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/Map.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Map.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Map.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Map~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Map.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/MapError.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/MapError.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/MapError.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/MapError~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/MapError.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/Mappable.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Mappable.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Mappable.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Mappable~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Mappable.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/Mapper.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Mapper.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Mapper.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Mapper~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Mapper.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/NSDecimalNumberTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/NSDecimalNumberTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/NSDecimalNumberTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/NSDecimalNumberTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/NSDecimalNumberTransform.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/Operators.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Operators.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Operators.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Operators~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/Operators.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/ToJSON.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ToJSON.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ToJSON.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ToJSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/ToJSON.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/TransformOf.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformOf.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformOf.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformOf~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformOf.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/TransformOperators.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformOperators.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformOperators.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformOperators~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformOperators.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/TransformType.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformType.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformType.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformType~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/TransformType.swiftdeps"
+  },
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/ObjectMapper.git-8248024228538629553/Sources/URLTransform.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/URLTransform.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/URLTransform.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/URLTransform~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.build/URLTransform.swiftdeps"
+  }
+}

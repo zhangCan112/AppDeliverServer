@@ -1,0 +1,165 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "<-"
+- ">>>"
+- "<-"
+- ">>>"
+- "<-"
+- ">>>"
+- "<-"
+- "<-"
+- ">>>"
+- "<-"
+- ">>>"
+- "<-"
+- "<-"
+- ">>>"
+- "<-"
+- ">>>"
+- "<-"
+- "<-"
+- ">>>"
+- "<-"
+- ">>>"
+- "<-"
+- "<-"
+- ">>>"
+- "<-"
+- ">>>"
+- "<-"
+- "<-"
+- ">>>"
+- "<-"
+- ">>>"
+- "<-"
+- "<-"
+- ">>>"
+- "<-"
+- ">>>"
+- "<-"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "<-"
+- !private "=="
+- ">>>"
+- "Array"
+- "BaseMappable"
+- "DefaultPrecedence"
+- "Dictionary"
+- !private "FromJSON"
+- "Map"
+- "Set"
+- "String"
+- !private "ToJSON"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s28CustomDebugStringConvertibleP", "toJSON"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "toJSON"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "toJSON"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "toJSON"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "fromJSON"]
+- ["s9EquatableP", "toJSON"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s23ExpressibleByNilLiteralP", "toJSON"]
+- !private ["12ObjectMapper8FromJSONC", "basicType"]
+- !private ["12ObjectMapper8FromJSONC", "object"]
+- !private ["12ObjectMapper8FromJSONC", "objectArray"]
+- !private ["12ObjectMapper8FromJSONC", "objectDictionary"]
+- !private ["12ObjectMapper8FromJSONC", "objectDictionaryOfArrays"]
+- !private ["12ObjectMapper8FromJSONC", "objectSet"]
+- !private ["12ObjectMapper8FromJSONC", "optionalBasicType"]
+- !private ["12ObjectMapper8FromJSONC", "optionalObject"]
+- !private ["12ObjectMapper8FromJSONC", "optionalObjectArray"]
+- !private ["12ObjectMapper8FromJSONC", "optionalObjectDictionary"]
+- !private ["12ObjectMapper8FromJSONC", "optionalObjectDictionaryOfArrays"]
+- !private ["12ObjectMapper8FromJSONC", "optionalObjectSet"]
+- !private ["12ObjectMapper8FromJSONC", "optionalTwoDimensionalObjectArray"]
+- !private ["12ObjectMapper8FromJSONC", "twoDimensionalObjectArray"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "fromJSON"]
+- ["s8HashableP", "toJSON"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["12ObjectMapper3MapC", "isKeyPresent"]
+- !private ["12ObjectMapper3MapC", "mappingType"]
+- !private ["12ObjectMapper3MapC", "value"]
+- !private ["12ObjectMapper11MappingTypeO", "deinit"]
+- ["12ObjectMapper11MappingTypeO", "fromJSON"]
+- ["12ObjectMapper11MappingTypeO", "toJSON"]
+- !private ["Sq", "toJSON"]
+- !private ["12ObjectMapper6ToJSONC", "basicType"]
+- !private ["12ObjectMapper6ToJSONC", "object"]
+- !private ["12ObjectMapper6ToJSONC", "objectArray"]
+- !private ["12ObjectMapper6ToJSONC", "objectDictionary"]
+- !private ["12ObjectMapper6ToJSONC", "objectDictionaryOfArrays"]
+- !private ["12ObjectMapper6ToJSONC", "objectSet"]
+- !private ["12ObjectMapper6ToJSONC", "optionalBasicType"]
+- !private ["12ObjectMapper6ToJSONC", "optionalObject"]
+- !private ["12ObjectMapper6ToJSONC", "optionalObjectArray"]
+- !private ["12ObjectMapper6ToJSONC", "optionalObjectDictionary"]
+- !private ["12ObjectMapper6ToJSONC", "optionalObjectDictionaryOfArrays"]
+- !private ["12ObjectMapper6ToJSONC", "optionalObjectSet"]
+- !private ["12ObjectMapper6ToJSONC", "optionalTwoDimensionalObjectArray"]
+- !private ["12ObjectMapper6ToJSONC", "twoDimensionalObjectArray"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "toJSON"]
+- !private ["s26_OptionalNilComparisonTypeV", "toJSON"]
+depends-nominal:
+- !private "Sb"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "12ObjectMapper8FromJSONC"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "12ObjectMapper3MapC"
+- "12ObjectMapper11MappingTypeO"
+- !private "Sq"
+- !private "12ObjectMapper6ToJSONC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/xpc/XPC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/usr/include/Darwin.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Library/Developer/CommandLineTools/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+interface-hash: "1ddd5e0c9fabb346ee53aa059af5b1a4"
