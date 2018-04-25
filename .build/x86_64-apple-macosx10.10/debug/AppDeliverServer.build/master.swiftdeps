@@ -1,16 +1,16 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "96fa0e7fa51b161c3ada00f43516a95a"
-build_time: [1524636931, 846428000]
+options: "e6d215106d4cf0ad6e8ba172faab6c2d"
+build_time: [1524643136, 247894000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/configuration/Config.swift": [1524635912, 0]
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/configuration/Config.swift": [1524642507, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/configuration/Filters.swift": [1522388350, 0]
-  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/configuration/Routes.swift": [1524134681, 0]
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/configuration/Routes.swift": [1524642084, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/FileDownloadHandler.swift": [1518503240, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/FileUploadHandler.swift": [1524134644, 0]
-  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/Handlers.swift": [1524128795, 0]
-  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/InfoPlistHandler.swift": [1524537465, 0]
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/Handlers.swift": [1524638826, 0]
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/handlers/InfoPlistHandler.swift": [1524640045, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/main.swift": [1524559559, 0]
-  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/model/AppiOSDiliver.swift": [1524636924, 0]
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/model/AppiOSDiliver.swift": [1524639675, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/objects/BaseBody.swift": [1524559564, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/objects/PostIPARequestData.swift": [1524559589, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/AliyunOSSModule/OSSTask.swift": [1524447792, 0]
@@ -18,4 +18,5 @@ inputs:
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/AliyunOSSModule/PutObjectRequest.swift": [1523695141, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/FileUtils.swift": [1524129813, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/IPAFileUtils.swift": [1524537465, 0]
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/MySqlStORM+Extension.swift": [1524639579, 0]
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/PageHandlers.swift": [1517985177, 0]

@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: 127.0.0.1 (MySQL 5.7.21)
+# Host: localHost (MySQL 5.7.22)
 # Database: schema
-# Generation Time: 2018-03-21 15:34:45 +0000
+# Generation Time: 2018-04-25 10:44:16 +0000
 # ************************************************************
 
 
@@ -47,12 +47,21 @@ CREATE TABLE `iOSDiliver` (
   `version` char(255) DEFAULT NULL COMMENT '版本信息',
   `buildID` char(255) DEFAULT NULL COMMENT 'buildID',
   `archiveType` int(11) DEFAULT NULL COMMENT '打包类型',
-  `shortUrl` char(255) DEFAULT NULL COMMENT ' 自身短链接',
+  `downloadPlistFileUrl` char(255) DEFAULT NULL COMMENT ' 下载App的plist文件链接',
   `comment` text COMMENT '备注信息',
-  `createDate` date DEFAULT NULL COMMENT '创建时间',
+  `createTime` datetime DEFAULT NULL COMMENT '创建时间',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+LOCK TABLES `iOSDiliver` WRITE;
+/*!40000 ALTER TABLE `iOSDiliver` DISABLE KEYS */;
+
+INSERT INTO `iOSDiliver` (`id`, `name`, `version`, `buildID`, `archiveType`, `downloadPlistFileUrl`, `comment`, `createTime`)
+VALUES
+	(1,'销售易CRM','1804.0.14','com.xiaoshouyi.ingage',0,'http://appdeliver.oss-cn-hangzhou.aliyuncs.com/plist/d08755b0-210b-4a0d-9ebc-a07f6b509dab-Info.plist','nil','2018-04-25 06:42:18');
+
+/*!40000 ALTER TABLE `iOSDiliver` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 

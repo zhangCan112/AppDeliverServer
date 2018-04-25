@@ -98,6 +98,12 @@
     "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/IPAFileUtils~partial.swiftmodule",
     "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/IPAFileUtils.swiftdeps"
   },
+  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/MySqlStORM+Extension.swift": {
+    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/MySqlStORM+Extension.d",
+    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/utility/MySqlStORM+Extension.swift.o",
+    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/MySqlStORM+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/MySqlStORM+Extension.swiftdeps"
+  },
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/utility/PageHandlers.swift": {
     "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/PageHandlers.d",
     "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/utility/PageHandlers.swift.o",

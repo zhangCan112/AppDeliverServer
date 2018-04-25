@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "4773307a57f1876b1dd7510a3d8b229c"
-build_time: [1524636547, 742899000]
+build_time: [1524643121, 962144000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/PerfectLogger/FileLogger.swift": [1524636478, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/PerfectLogger/RemoteLogger.swift": [1524636478, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/PerfectLogger/FileLogger.swift": [1524643060, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/PerfectLogger/RemoteLogger.swift": [1524643060, 0]

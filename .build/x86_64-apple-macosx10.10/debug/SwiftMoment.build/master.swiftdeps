@@ -1,10 +1,10 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "42c8e35b9475588e53d4ff7e3a77412f"
-build_time: [1524636498, 929028000]
+build_time: [1524643079, 365294000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": [1524636479, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": [1524636479, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": [1524636479, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": [1524636479, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": [1524636479, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": [1524636479, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Duration.swift": [1524643061, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Extensions.swift": [1524643061, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Moment.swift": [1524643061, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/MomentFromNow.swift": [1524643061, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/Operators.swift": [1524643061, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/SwiftMoment.git--2912679366309029826/Sources/SwiftMoment/TimeUnit.swift": [1524643061, 0]

@@ -1,6 +1,6 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "ed9cb11bb847a13397109ce41942bb9f"
-build_time: [1524636544, 362608000]
+build_time: [1524643118, 697533000]
 inputs:
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Mustache.git-4271886153857801499/Sources/HTTPResponseExtension.swift": [1524636472, 0]
-  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Mustache.git-4271886153857801499/Sources/Mustache.swift": [1524636472, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Mustache.git-4271886153857801499/Sources/HTTPResponseExtension.swift": [1524643054, 0]
+  "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Mustache.git-4271886153857801499/Sources/Mustache.swift": [1524643054, 0]

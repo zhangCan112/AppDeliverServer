@@ -17,7 +17,18 @@ class AppiOSDiliver: MySQLStORM {
     var archiveType: Int = 0
     var downloadPlistFileUrl: String = ""
     var comment: String?
-    var createDate: Date = Date()
+    fileprivate var createTime = "NULL"
+    var createDate: Date? {
+        get{
+            return createTime == "NULL" ? nil : getDate(fromSQLDateTime: createTime)
+        }
+        set{
+            createTime = "NULL"
+            if let date = newValue {
+                createTime = date.sqlDateTime()
+            }
+        }
+    }
     
     override func table() -> String {
         return "iOSDiliver"
@@ -31,7 +42,7 @@ class AppiOSDiliver: MySQLStORM {
         archiveType = this.data["archiveType"] as! Int
         downloadPlistFileUrl = this.data["downloadPlistFileUrl"] as! String
         comment = this.data["comment"] as? String
-        createDate = this.data["createDate"] as! Date
+        createTime = this.data["createTime"] as! String
     }
     
     func rows() -> [AppiOSDiliver] {
