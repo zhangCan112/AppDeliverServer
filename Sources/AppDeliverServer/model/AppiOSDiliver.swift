@@ -5,9 +5,9 @@
 //  Created by zhangcan on 2018/4/24.
 //
 
+import Foundation
 import MySQLStORM
 import StORM
-import SwiftSQL
 
 class AppiOSDiliver: MySQLStORM {
     var id: Int = 0
@@ -31,7 +31,7 @@ class AppiOSDiliver: MySQLStORM {
         archiveType = this.data["archiveType"] as! Int
         downloadPlistFileUrl = this.data["downloadPlistFileUrl"] as! String
         comment = this.data["comment"] as? String
-        createDate = this.data["createDate"] as? Date
+        createDate = this.data["createDate"] as! Date
     }
     
     func rows() -> [AppiOSDiliver] {

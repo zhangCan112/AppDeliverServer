@@ -1,0 +1,394 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PostIPARequestMaker"
+provides-nominal:
+- "16AppDeliverServer19PostIPARequestMakerC"
+provides-member:
+- ["16AppDeliverServer19PostIPARequestMakerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "??"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "HMACKey"
+- "IpaInfo"
+- "PostIPARequestMaker"
+- "String"
+- "StringLiteralType"
+- !private "UInt8"
+- !private "UnicodeScalarType"
+- "aliyunAccessKeyInfo"
+depends-member:
+- !private ["Sa", "encode"]
+- !private ["Sa", "init"]
+- !private ["s23BidirectionalCollectionP", "encode"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "sign"]
+- !private ["s7CVarArgP", "encode"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonEncodedString"]
+- !private ["s7CVarArgP", "sign"]
+- !private ["s10CollectionP", "encode"]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "jsonEncodedString"]
+- !private ["s10CollectionP", "sign"]
+- !private ["s10ComparableP", "encode"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "sign"]
+- !private ["s28CustomDebugStringConvertibleP", "encode"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonEncodedString"]
+- !private ["s28CustomDebugStringConvertibleP", "sign"]
+- !private ["s29CustomPlaygroundQuickLookableP", "encode"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "sign"]
+- !private ["s17CustomReflectableP", "encode"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "jsonEncodedString"]
+- !private ["s17CustomReflectableP", "sign"]
+- !private ["s23CustomStringConvertibleP", "encode"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonEncodedString"]
+- !private ["s23CustomStringConvertibleP", "sign"]
+- !private ["s9DecodableP", "encode"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "jsonEncodedString"]
+- !private ["s9DecodableP", "sign"]
+- !private ["s10DictionaryV", "jsonEncodedString"]
+- !private ["13PerfectCrypto6DigestO", "sha1"]
+- !private ["s9EncodableP", "encode"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "jsonEncodedString"]
+- !private ["s9EncodableP", "sign"]
+- !private ["13PerfectCrypto8EncodingO", "base64"]
+- !private ["s9EquatableP", "base64"]
+- !private ["s9EquatableP", "encode"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "sign"]
+- !private ["s25ExpressibleByArrayLiteralP", "encode"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "jsonEncodedString"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "encode"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "sign"]
+- !private ["s26ExpressibleByStringLiteralP", "encode"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "sign"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "encode"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "sign"]
+- !private ["13PerfectCrypto7HMACKeyC", "init"]
+- !private ["s8HashableP", "base64"]
+- !private ["s8HashableP", "encode"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "sign"]
+- !private ["16AppDeliverServer7IpaInfoV", "bundleName"]
+- !private ["10PerfectLib15JSONConvertibleP", "encode"]
+- ["10PerfectLib15JSONConvertibleP", "init"]
+- !private ["10PerfectLib15JSONConvertibleP", "jsonEncodedString"]
+- !private ["10PerfectLib15JSONConvertibleP", "sign"]
+- !private ["s25LosslessStringConvertibleP", "encode"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "sign"]
+- !private ["s10MirrorPathP", "encode"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "sign"]
+- !private ["s17MutableCollectionP", "encode"]
+- !private ["s17MutableCollectionP", "init"]
+- !private ["So8NSCodingP", "encode"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "sign"]
+- !private ["So9NSCopyingP", "encode"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "sign"]
+- !private ["So21NSItemProviderReadingP", "encode"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "sign"]
+- !private ["So21NSItemProviderWritingP", "encode"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "sign"]
+- !private ["So16NSMutableCopyingP", "encode"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "sign"]
+- !private ["So8NSObjectC", "encode"]
+- !private ["So8NSObjectC", "sign"]
+- !private ["So16NSObjectProtocolP", "encode"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "sign"]
+- !private ["So19NSPasteboardReadingP", "encode"]
+- ["So19NSPasteboardReadingP", "init"]
+- !private ["So19NSPasteboardReadingP", "sign"]
+- !private ["So19NSPasteboardWritingP", "encode"]
+- ["So19NSPasteboardWritingP", "init"]
+- !private ["So19NSPasteboardWritingP", "sign"]
+- !private ["So14NSSecureCodingP", "encode"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "sign"]
+- !private ["So8NSStringC", "encode"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "sign"]
+- !private ["16AppDeliverServer19PostIPARequestMakerC", "HMACKey"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "IpaInfo"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "String"]
+- !private ["16AppDeliverServer19PostIPARequestMakerC", "UInt8"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "accessKeyId"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "accessKeySecret"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "aliyunAccessKeyInfo"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "bucketName"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "deinit"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "downloadUrl"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "endPoint"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "getObjectKey"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "getPolicy"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "getSignature"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "host"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "init"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "objectKey"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "policy"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "signature"]
+- ["16AppDeliverServer19PostIPARequestMakerC", "success_action_status"]
+- !private ["s22RandomAccessCollectionP", "encode"]
+- !private ["s22RandomAccessCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "encode"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "sign"]
+- !private ["s8SequenceP", "encode"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "jsonEncodedString"]
+- !private ["s8SequenceP", "sign"]
+- !private ["SS", "encode"]
+- ["SS", "init"]
+- !private ["SS", "sign"]
+- !private ["s14StringProtocolP", "encode"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "sign"]
+- !private ["s16TextOutputStreamP", "encode"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "sign"]
+- !private ["s20TextOutputStreamableP", "encode"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "sign"]
+- !private ["s14_ArrayProtocolP", "encode"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s23_BidirectionalIndexableP", "encode"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "sign"]
+- !private ["s24_DestructorSafeContainerP", "encode"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "encode"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "sign"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "encode"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "sign"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "encode"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "sign"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "encode"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "sign"]
+- !private ["s33_ExpressibleByStringInterpolationP", "encode"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "sign"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "encode"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sign"]
+- !private ["s10_IndexableP", "encode"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "jsonEncodedString"]
+- !private ["s10_IndexableP", "sign"]
+- !private ["s14_IndexableBaseP", "encode"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "jsonEncodedString"]
+- !private ["s14_IndexableBaseP", "sign"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "encode"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sign"]
+- !private ["s17_MutableIndexableP", "encode"]
+- !private ["s17_MutableIndexableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "encode"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "jsonEncodedString"]
+- !private ["s21_ObjectiveCBridgeableP", "sign"]
+- !private ["s22_RandomAccessIndexableP", "encode"]
+- !private ["s22_RandomAccessIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "encode"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "sign"]
+- !private ["s16_SwiftStringViewP", "encode"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "sign"]
+depends-nominal:
+- !private "Sa"
+- "s23BidirectionalCollectionP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "13PerfectCrypto6DigestO"
+- "s9EncodableP"
+- !private "13PerfectCrypto8EncodingO"
+- "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "13PerfectCrypto7HMACKeyC"
+- "s8HashableP"
+- !private "16AppDeliverServer7IpaInfoV"
+- "10PerfectLib15JSONConvertibleP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "s17MutableCollectionP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So19NSPasteboardReadingP"
+- "So19NSPasteboardWritingP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- "16AppDeliverServer19PostIPARequestMakerC"
+- !private "s22RandomAccessCollectionP"
+- "s26RangeReplaceableCollectionP"
+- "s8SequenceP"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "s14_ArrayProtocolP"
+- "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectXML.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectMySQL.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectCURL.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/StORM.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/MySQLStORM.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectHTTP.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectLib.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectThread.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectMustache.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftString.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectCrypto.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectZip.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectLogger.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/ObjectMapper.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectHTTPServer.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/PerfectNet.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/SwiftMoment.swiftmodule"
+- "/Library/Developer/CommandLineTools/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../asn1.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../tls1.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dtls1.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl2.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem2.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../e_os2.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl23.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl3.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pkcs7.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../sha.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dsa.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdsa.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rsa.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/typelib.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zlib.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/zlib.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/czlib.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../obj_mac.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../hmac.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ec.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/my_alloc.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/my_command.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../rand.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql_time.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql/psi/psi_base.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pqueue.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslconf.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zconf.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/zconf.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../dh.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ecdh.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../lhash.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/ioapi.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../stack.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../safestack.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../zutil.h"
+- "/usr/local/include/mysql/mysql.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ssl.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../kssl.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/openssl.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../pem.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql_com.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bn.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql/client_plugin.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql_version.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql/plugin_auth_common.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../bio.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../crypto.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/zip.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/unzip.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../comp.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../srtp.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../evp.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../ossl_typ.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../buffer.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/http_parser.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../err.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/../inftrees.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/binary_log_types.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../symhacks.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../cms.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../objects.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/my_list.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../opensslv.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/../x509_vfy.h"
+- "/usr/local/Cellar/mysql/5.7.21/include/mysql/mysql/psi/psi_memory.h"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-libxml2.git--1407945982793290600/module.modulemap"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-libcurl.git--6269865819486613555/module.modulemap"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-mysqlclient.git-5333716826204139417/module.modulemap"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-COpenSSL.git--4744624199947727386/COpenSSL/include/module.modulemap"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-CZlib-src.git--8503750424862953877/PerfectCZlib/include/module.modulemap"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-Zip.git--2154399287504360177/Sources/minizip/include/module.modulemap"
+- "/Users/Tin/Documents/AppDeliverServer/.build/checkouts/Perfect-HTTPServer.git--6671958091389663080/Sources/PerfectCHTTPParser/include/module.modulemap"
+interface-hash: "2fe46d7f9aa8626d4b64fbb26f27c005"

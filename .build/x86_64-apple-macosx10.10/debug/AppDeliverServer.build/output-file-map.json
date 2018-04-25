@@ -56,12 +56,6 @@
     "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver~partial.swiftmodule",
     "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver.swiftdeps"
   },
-  "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/objects/AppiOSDiliver.swift": {
-    "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver.d",
-    "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/objects/AppiOSDiliver.swift.o",
-    "swiftmodule": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver~partial.swiftmodule",
-    "swift-dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/AppiOSDiliver.swiftdeps"
-  },
   "/Users/Tin/Documents/AppDeliverServer/Sources/AppDeliverServer/objects/BaseBody.swift": {
     "dependencies": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/BaseBody.d",
     "object": "/Users/Tin/Documents/AppDeliverServer/.build/x86_64-apple-macosx10.10/debug/AppDeliverServer.build/objects/BaseBody.swift.o",
