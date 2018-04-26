@@ -12,7 +12,7 @@ import MySQLStORM
 func config() -> [String: Any] {
     return [
         "name":"localhost",
-        "address":"192.168.1.100",
+        "address":"192.168.199.225",
         "port":8181,
     ]
 }

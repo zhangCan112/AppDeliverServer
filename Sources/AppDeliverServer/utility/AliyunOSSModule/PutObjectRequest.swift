@@ -25,7 +25,7 @@ class OSSRequest {
     }
     
     var url: String {
-        return "http://\(self.host)/\(self.objectKey)"
+        return "https://\(self.host)/\(self.objectKey)"
     }
     
     

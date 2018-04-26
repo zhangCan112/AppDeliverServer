@@ -10,11 +10,15 @@ import MySQLStORM
 import StORM
 import PerfectThread
 
-extension MySQLStORM {
+extension AppiOSDiliver {
     func saveToDB() -> Promise<Bool> {
-        return Promise(closure: { (prom) in
+        return Promise(closure: { (prom) in            
             do {
-               try self.save()
+                if self.id == 0 {
+                    try self.create()
+                } else {
+                    try self.save()
+                }
                prom.set(true)
             } catch {
                prom.fail(StORMError.error("save To DB Failed！"))

@@ -67,7 +67,7 @@ struct infoPlistHandler {
                             deliver.name = info.displayName
                             deliver.buildID = info.identifier
                             deliver.version = info.version
-                            deliver.downloadPlistFileUrl = ipaReqMaker.downloadUrl
+                            deliver.downloadPlistFileUrl = request.url
                             deliver.createDate = Date()
                             return  try deliver.saveToDB().wait()!
                         })
@@ -102,11 +102,18 @@ struct appUrlHandler {
             
             do {
                 let obj = AppiOSDiliver()
-                try obj.select(whereclause: "1", params: [], orderby: ["createTimeStamp DESC"] )
+                let thisCursor = StORMCursor(
+                    limit: 1,
+                    offset: 0
+                )
+                try obj.select(whereclause: "1", params: [], orderby: ["createTimeStamp DESC"], cursor: thisCursor)
                 let dataModel = AppUrlModel()
-                dataModel.url = "itms-services://?action=download-manifest&url=" +  obj.downloadPlistFileUrl
-                let body = successBody(sucessData: dataModel)
-                response.appendBody(string: body.toJSONString() ?? "")
+                if let data = obj.results.rows.first  {
+                    obj.to(data)
+                    dataModel.url = "itms-services://?action=download-manifest&url=" + obj.downloadPlistFileUrl
+                    let body = successBody(sucessData: dataModel)
+                    response.appendBody(string: body.toJSONString() ?? "")
+                }
                 response.completed()
             } catch {
                 let body = failedBody(scode:"100" , message: error.localizedDescription)
