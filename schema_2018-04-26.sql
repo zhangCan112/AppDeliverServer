@@ -5,9 +5,9 @@
 # http://www.sequelpro.com/
 # https://github.com/sequelpro/sequelpro
 #
-# Host: localhost (MySQL 5.7.21)
+# Host: localhost (MySQL 5.7.22)
 # Database: schema
-# Generation Time: 2018-04-25 23:46:40 +0000
+# Generation Time: 2018-04-26 10:28:53 +0000
 # ************************************************************
 
 
@@ -58,7 +58,11 @@ LOCK TABLES `iOSDiliver` WRITE;
 
 INSERT INTO `iOSDiliver` (`id`, `name`, `version`, `buildID`, `archiveType`, `downloadPlistFileUrl`, `comment`, `createTimeStamp`)
 VALUES
-	(3,'销售易CRM','1801.6.3','com.xiaoshouyi.ingage',0,'https://appdeliver.oss-cn-hangzhou.aliyuncs.com/plist/800c4088-41c1-4e13-8ac0-72196fa1c196-Info.plist','nil',1524669949);
+	(3,'销售易CRM','1801.6.3','com.xiaoshouyi.ingage',0,'https://appdeliver.oss-cn-hangzhou.aliyuncs.com/plist/800c4088-41c1-4e13-8ac0-72196fa1c196-Info.plist','nil',1524669949),
+	(4,'销售易CRM','1804.0.14','com.xiaoshouyi.ingage',0,'https://appdeliver.oss-cn-hangzhou.aliyuncs.com/ipa/11201436-a903-4aa3-a0c3-563b1620f653-ingage.ipa','nil',1524723793),
+	(5,'销售易CRM','1804.0.14','com.xiaoshouyi.ingage',0,'http://appdeliver.oss-cn-hangzhou.aliyuncs.com/plist/d1e3472a-ffa8-4658-ae5c-7e08593517a3-Info.plist','nil',1524723940),
+	(6,'销售易CRM','1804.0.14','com.xiaoshouyi.ingage',0,'http://appdeliver.oss-cn-hangzhou.aliyuncs.com/plist/2e213fb6-8d8d-4ba2-a46b-6b320a1a2d7b-Info.plist','nil',1524724032),
+	(7,'销售易CRM','1804.0.14','com.xiaoshouyi.ingage',0,'https://appdeliver.oss-cn-hangzhou.aliyuncs.com/plist/8d083972-3c71-439c-a52a-18c33b3b5b38-Info.plist','nil',1524724104);
 
 /*!40000 ALTER TABLE `iOSDiliver` ENABLE KEYS */;
 UNLOCK TABLES;
