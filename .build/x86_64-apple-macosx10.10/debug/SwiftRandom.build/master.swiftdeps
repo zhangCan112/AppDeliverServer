@@ -1,7 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "d1088856439960d4ce1658bb06cd8ab5"
-build_time: [1524665094, 426140000]
-inputs:
-  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftRandom.git--6412955993590123727/Sources/SwiftRandom/Random.swift": [1524665045, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftRandom.git--6412955993590123727/Sources/SwiftRandom/Randoms.swift": [1524665045, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/SwiftRandom.git--6412955993590123727/Sources/SwiftRandom/URandom.swift": [1524665045, 0]

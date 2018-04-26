@@ -26,6 +26,7 @@ func routes() -> [[String: Any]] {
                    "uri":"/iOS/infoPlist",
                    "handler":Handlers.iOS.infoPlist.post])
     
+    
     //文件上传
     routes.append(["method": "get",
                    "uri":"/fileUpload",

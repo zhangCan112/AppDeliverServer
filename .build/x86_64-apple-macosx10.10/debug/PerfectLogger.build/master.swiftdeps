@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "108ac1897ebc5611c78ee7f5f3302139"
-build_time: [1524665168, 887182000]
-inputs:
-  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/PerfectLogger/FileLogger.swift": [1524665056, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-Logger.git--429101405906730625/Sources/PerfectLogger/RemoteLogger.swift": [1524665056, 0]

@@ -27,7 +27,7 @@ struct iOSCategory {
     }
 }
 
-class infoPlistHandler {
+struct infoPlistHandler {
     
     static func post(data: [String:Any]) throws -> RequestHandler {
         return { request, response in
@@ -96,7 +96,7 @@ class infoPlistHandler {
     }
 }
 
-class appUrlHandler {
+struct appUrlHandler {
     static func get(data: [String:Any]) throws -> RequestHandler {
         return { request, response in
             

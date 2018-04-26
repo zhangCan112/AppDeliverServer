@@ -1,6 +1,0 @@
-version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "deea77ed1513e0d4021564334d1bdf8a"
-build_time: [1524665109, 155820000]
-inputs:
-  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-XML.git--3069111962689080115/Sources/PerfectXML.swift": [1524665053, 0]
-  "/Users/Tin_zhanCan/workspace/perfect/AppDeliverServer/.build/checkouts/Perfect-XML.git--3069111962689080115/Sources/PerfectXPath.swift": [1524665053, 0]
